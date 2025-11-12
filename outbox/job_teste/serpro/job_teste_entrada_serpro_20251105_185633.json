@@ -1,0 +1,11 @@
+{
+  "job_id": "job_teste",
+  "perfil_validacao": "PJ",
+  "cnpj": "27865757000102",
+  "url": "https://api.serpro.gov.br/consulta-cnpj/v1/27865757000102",
+  "headers": {
+    "Authorization": "<token>",
+    "Accept": "application/json"
+  },
+  "timestamp": "2025-11-05T18:56:33.935406"
+}

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="3411px" preserveAspectRatio="none" style="width:2643px;height:3411px;background:#FFFFFF;" version="1.1" viewBox="0 0 2643 3411" width="2643px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="59.3984" style="stroke:#181818;stroke-width:1.0;" width="10" x="382.5" y="170.6953"/><rect fill="#FFFFFF" height="1314.9766" style="stroke:#181818;stroke-width:1.0;" width="10" x="642.5" y="230.0938"/><rect fill="#FFFFFF" height="29.1328" style="stroke:#181818;stroke-width:1.0;" width="10" x="1019.5" y="389.8906"/><rect fill="#FFFFFF" height="29.1328" style="stroke:#181818;stroke-width:1.0;" width="10" x="1223" y="521.5547"/><rect fill="#FFFFFF" height="117.6641" style="stroke:#181818;stroke-width:1.0;" width="10" x="1407.5" y="649.3516"/><rect fill="#FFFFFF" height="44.2656" style="stroke:#181818;stroke-width:1.0;" width="10" x="1599.5" y="935.6172"/><rect fill="#FFFFFF" height="29.1328" style="stroke:#181818;stroke-width:1.0;" width="10" x="1811.5" y="1067.2813"/><rect fill="#FFFFFF" height="44.2656" style="stroke:#181818;stroke-width:1.0;" width="10" x="2023.5" y="1229.2109"/><rect fill="#FFFFFF" height="74.5313" style="stroke:#181818;stroke-width:1.0;" width="10" x="2208" y="1391.1406"/><rect fill="none" height="253.2656" style="stroke:#000000;stroke-width:1.5;" width="2114" x="512" y="565.6875"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="129" x2="129" y1="81.2969" y2="3330.2188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="387.5" x2="387.5" y1="81.2969" y2="3330.2188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="647" x2="647" y1="81.2969" y2="3330.2188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1024" x2="1024" y1="81.2969" y2="3330.2188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1228" x2="1228" y1="81.2969" y2="3330.2188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1412" x2="1412" y1="81.2969" y2="3330.2188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1604" x2="1604" y1="81.2969" y2="3330.2188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1816" x2="1816" y1="81.2969" y2="3330.2188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="2028" x2="2028" y1="81.2969" y2="3330.2188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="2213" x2="2213" y1="81.2969" y2="3330.2188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="2367" x2="2367" y1="81.2969" y2="3330.2188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="2533" x2="2533" y1="81.2969" y2="3330.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="213" x="20" y="77.9951">Usuário (Comprador/Operador)</text><ellipse cx="129.5" cy="13.5" fill="#E3E3E3" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M129.5,21.5 L129.5,48.5 M116.5,29.5 L142.5,29.5 M129.5,48.5 L116.5,63.5 M129.5,48.5 L142.5,63.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="213" x="20" y="3342.2139">Usuário (Comprador/Operador)</text><ellipse cx="129.5" cy="3354.0156" fill="#E3E3E3" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M129.5,3362.0156 L129.5,3389.0156 M116.5,3370.0156 L142.5,3370.0156 M129.5,3389.0156 L116.5,3404.0156 M129.5,3389.0156 L142.5,3404.0156 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E3E3E3" height="62.8906" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="170" x="302.5" y="17.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="357.5" y="37.4014">Interface</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="357.5" y="53.6982">Streamlit</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="309.5" y="69.9951">(interface_frontend.py)</text><rect fill="#E3E3E3" height="62.8906" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="170" x="302.5" y="3329.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="357.5" y="3349.2139">Interface</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="357.5" y="3365.5107">Streamlit</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="309.5" y="3381.8076">(interface_frontend.py)</text><rect fill="#E3E3E3" height="62.8906" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="211" x="542" y="17.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="619" y="37.4014">Watcher</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="601.5" y="53.6982">(watcher.py*)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="549" y="69.9951">(*arquivo atual: 1watcher.py)</text><rect fill="#E3E3E3" height="62.8906" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="211" x="542" y="3329.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="619" y="3349.2139">Watcher</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="601.5" y="3365.5107">(watcher.py*)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="549" y="3381.8076">(*arquivo atual: 1watcher.py)</text><rect fill="#E3E3E3" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="153" x="948" y="33.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="970" y="53.6982">Manifest Loader</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="955" y="69.9951">(manifest_loader.py)</text><rect fill="#E3E3E3" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="153" x="948" y="3329.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="970" y="3349.2139">Manifest Loader</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="955" y="3365.5107">(manifest_loader.py)</text><rect fill="#E3E3E3" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="154" x="1151" y="33.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="1187.5" y="53.6982">OCR Básico</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="1158" y="69.9951">(extrator_docling.py)</text><rect fill="#E3E3E3" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="154" x="1151" y="3329.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="1187.5" y="3349.2139">OCR Básico</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="1158" y="3365.5107">(extrator_docling.py)</text><rect fill="#E3E3E3" height="62.8906" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="115" x="1355" y="17.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="1371.5" y="37.4014">OCR Router</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="1362" y="53.6982">(ocr_router.py)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="1378.5" y="69.9951">(opcional)</text><rect fill="#E3E3E3" height="62.8906" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="115" x="1355" y="3329.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="1371.5" y="3349.2139">OCR Router</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="1362" y="3365.5107">(ocr_router.py)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="1378.5" y="3381.8076">(opcional)</text><rect fill="#E3E3E3" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="169" x="1520" y="33.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="1556" y="53.6982">IA1 - Validador</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="1527" y="69.9951">(doc_verifier_agent.py)</text><rect fill="#E3E3E3" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="169" x="1520" y="3329.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="1556" y="3349.2139">IA1 - Validador</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="1527" y="3365.5107">(doc_verifier_agent.py)</text><rect fill="#E3E3E3" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="155" x="1739" y="33.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="1787.5" y="53.6982">SERPRO</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="1746" y="69.9951">(consulta_serpro.py)</text><rect fill="#E3E3E3" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="155" x="1739" y="3329.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="1787.5" y="3349.2139">SERPRO</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="1746" y="3365.5107">(consulta_serpro.py)</text><rect fill="#E3E3E3" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="169" x="1944" y="33.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="1969" y="53.6982">IA2 - Comparativa</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="1951" y="69.9951">(doc_verifier_agent.py)</text><rect fill="#E3E3E3" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="169" x="1944" y="3329.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="1969" y="3349.2139">IA2 - Comparativa</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="1951" y="3365.5107">(doc_verifier_agent.py)</text><rect fill="#E3E3E3" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="2163" y="33.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="2178.5" y="53.6982">Relatórios</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="2170" y="69.9951">(relatorio.py)</text><rect fill="#E3E3E3" height="46.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="2163" y="3329.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="2178.5" y="3349.2139">Relatórios</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="2170" y="3365.5107">(relatorio.py)</text><rect fill="#E3E3E3" height="46.5938" style="stroke:#181818;stroke-width:0.5;" width="104" x="2317" y="29.7031"/><rect fill="#E3E3E3" height="46.5938" style="stroke:#181818;stroke-width:0.5;" width="104" x="2313" y="33.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="2341" y="53.6982">Ledger</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="2320" y="69.9951">(ledger.jsonl)</text><rect fill="#E3E3E3" height="46.5938" style="stroke:#181818;stroke-width:0.5;" width="104" x="2317" y="3329.2188"/><rect fill="#E3E3E3" height="46.5938" style="stroke:#181818;stroke-width:0.5;" width="104" x="2313" y="3333.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="2341" y="3353.2139">Ledger</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="2320" y="3369.5107">(ledger.jsonl)</text><rect fill="#E3E3E3" height="46.5938" style="stroke:#181818;stroke-width:0.5;" width="121" x="2475" y="29.7031"/><rect fill="#E3E3E3" height="46.5938" style="stroke:#181818;stroke-width:0.5;" width="121" x="2471" y="33.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="2515" y="53.6982">Logs</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="2478" y="69.9951">(log_service.py)</text><rect fill="#E3E3E3" height="46.5938" style="stroke:#181818;stroke-width:0.5;" width="121" x="2475" y="3329.2188"/><rect fill="#E3E3E3" height="46.5938" style="stroke:#181818;stroke-width:0.5;" width="121" x="2471" y="3333.2188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="2515" y="3353.2139">Logs</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="2478" y="3369.5107">(log_service.py)</text><rect fill="#FFFFFF" height="59.3984" style="stroke:#181818;stroke-width:1.0;" width="10" x="382.5" y="170.6953"/><rect fill="#FFFFFF" height="1314.9766" style="stroke:#181818;stroke-width:1.0;" width="10" x="642.5" y="230.0938"/><rect fill="#FFFFFF" height="29.1328" style="stroke:#181818;stroke-width:1.0;" width="10" x="1019.5" y="389.8906"/><rect fill="#FFFFFF" height="29.1328" style="stroke:#181818;stroke-width:1.0;" width="10" x="1223" y="521.5547"/><rect fill="#FFFFFF" height="117.6641" style="stroke:#181818;stroke-width:1.0;" width="10" x="1407.5" y="649.3516"/><rect fill="#FFFFFF" height="44.2656" style="stroke:#181818;stroke-width:1.0;" width="10" x="1599.5" y="935.6172"/><rect fill="#FFFFFF" height="29.1328" style="stroke:#181818;stroke-width:1.0;" width="10" x="1811.5" y="1067.2813"/><rect fill="#FFFFFF" height="44.2656" style="stroke:#181818;stroke-width:1.0;" width="10" x="2023.5" y="1229.2109"/><rect fill="#FFFFFF" height="74.5313" style="stroke:#181818;stroke-width:1.0;" width="10" x="2208" y="1391.1406"/><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2636" x="0" y="111.8633"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="111.8633" y2="111.8633"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="114.8633" y2="114.8633"/><rect fill="#EEEEEE" height="23.1328" style="stroke:#000000;stroke-width:2.0;" width="198" x="1219" y="101.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="179" x="1225" y="117.3638">Início: submissão de job</text><polygon fill="#181818" points="370.5,166.6953,380.5,170.6953,370.5,174.6953,374.5,170.6953" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="129.5" x2="376.5" y1="170.6953" y2="170.6953"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="186" x="136.5" y="150.4966">Upload manifest.json + PDFs</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="136.5" y="165.6294">(Aba "Upload de Job")</text><polygon fill="#181818" points="630.5,226.0938,640.5,230.0938,630.5,234.0938,634.5,230.0938" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="387.5" x2="636.5" y1="230.0938" y2="230.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="231" x="394.5" y="194.7622">(opcional) acionar execução manual</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="214" x="394.5" y="209.895">executar_pipeline_manual(job_id)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="189" x="394.5" y="225.0278">(ou apenas gravar em /inbox)</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2636" x="0" y="258.6602"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="258.6602" y2="258.6602"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="261.6602" y2="261.6602"/><rect fill="#EEEEEE" height="23.1328" style="stroke:#000000;stroke-width:2.0;" width="192" x="1222" y="248.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="173" x="1228" y="264.1606">Detecção e preparação</text><line style="stroke:#181818;stroke-width:1.0;" x1="652.5" x2="694.5" y1="317.4922" y2="317.4922"/><line style="stroke:#181818;stroke-width:1.0;" x1="694.5" x2="694.5" y1="317.4922" y2="330.4922"/><line style="stroke:#181818;stroke-width:1.0;" x1="653.5" x2="694.5" y1="330.4922" y2="330.4922"/><polygon fill="#181818" points="663.5,326.4922,653.5,330.4922,663.5,334.4922,659.5,330.4922" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="248" x="659.5" y="297.2935">detect_and_move_jobs(run_once|loop)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="145" x="659.5" y="312.4263">listar pastas em /inbox</text><polygon fill="#181818" points="1007.5,385.8906,1017.5,389.8906,1007.5,393.8906,1011.5,389.8906" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="652.5" x2="1013.5" y1="389.8906" y2="389.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="348" x="659.5" y="354.5591">load_manifest(job_dir=/&lt;inbox|processing&gt;/&lt;job_id&gt;,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="663.5" y="369.6919">strict_files=True)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="213" x="659.5" y="384.8247">(validar schema v3 + normalizar)</text><polygon fill="#181818" points="663.5,415.0234,653.5,419.0234,663.5,423.0234,659.5,419.0234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="657.5" x2="1023.5" y1="419.0234" y2="419.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="669.5" y="413.9575">manifest normalizado</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2636" x="0" y="447.5898"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="447.5898" y2="447.5898"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="450.5898" y2="450.5898"/><rect fill="#EEEEEE" height="23.1328" style="stroke:#000000;stroke-width:2.0;" width="275" x="1180.5" y="437.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="256" x="1186.5" y="453.0903">Extração de conteúdo (Markdown)</text><polygon fill="#181818" points="1211,517.5547,1221,521.5547,1211,525.5547,1215,521.5547" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="652.5" x2="1217" y1="521.5547" y2="521.5547"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="194" x="659.5" y="486.2231">executar_ocr(job_id, manifest)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="190" x="659.5" y="501.356">(Docling → fallback Tesseract)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="148" x="659.5" y="516.4888">→ salva evidências .md</text><polygon fill="#181818" points="663.5,546.6875,653.5,550.6875,663.5,554.6875,659.5,550.6875" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="657.5" x2="1227" y1="550.6875" y2="550.6875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="252" x="669.5" y="545.6216">{ status, dados_extraidos, evidencias }</text><path d="M512,565.6875 L576,565.6875 L576,572.8203 L566,582.8203 L512,582.8203 L512,565.6875 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="253.2656" style="stroke:#000000;stroke-width:1.5;" width="2114" x="512" y="565.6875"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="527" y="578.7544">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="243" x="591" y="577.8979">[Ambiente com OCR Router avançado]</text><polygon fill="#181818" points="1395.5,645.3516,1405.5,649.3516,1395.5,653.3516,1399.5,649.3516" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="652.5" x2="1401.5" y1="649.3516" y2="649.3516"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="260" x="659.5" y="598.8872">process_pdf(path_pdf, job_id, arquivo_id,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="151" x="663.5" y="614.02">tipo_previsto, manifest)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="195" x="659.5" y="629.1528">classifica texto|imagem|tabela</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="215" x="659.5" y="644.2856">pós-processa markdown + ledger</text><polygon fill="#181818" points="2355,689.6172,2365,693.6172,2355,697.6172,2359,693.6172" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="1417.5" x2="2361" y1="693.6172" y2="693.6172"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="208" x="1424.5" y="673.4185">register_entry(job_id, arquivo_id,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="271" x="1428.5" y="688.5513">etapa="OCR", hash_pdf, hash_md, status)</text><polygon fill="#181818" points="1428.5,718.75,1418.5,722.75,1428.5,726.75,1424.5,722.75" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1422.5" x2="2366" y1="722.75" y2="722.75"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="18" x="1434.5" y="717.6841">OK</text><polygon fill="#181818" points="663.5,763.0156,653.5,767.0156,663.5,771.0156,659.5,767.0156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="657.5" x2="1411.5" y1="767.0156" y2="767.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="230" x="669.5" y="746.8169">{ conteudo_markdown, diagnostico,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="224" x="673.5" y="761.9497">tipo_detectado, origem_extracao }</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="512" x2="2626" y1="776.0156" y2="776.0156"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="252" x="517" y="786.2261">[Apenas OCR básico (extrator_docling)]</text><polygon fill="#181818" points="2521.5,806.9531,2531.5,810.9531,2521.5,814.9531,2525.5,810.9531" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="652.5" x2="2527.5" y1="810.9531" y2="810.9531"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="257" x="659.5" y="805.8872">registrar_evento(job, "OCR", "concluído")</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2636" x="0" y="846.5195"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="846.5195" y2="846.5195"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="849.5195" y2="849.5195"/><rect fill="#EEEEEE" height="23.1328" style="stroke:#000000;stroke-width:2.0;" width="226" x="1205" y="835.9531"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="207" x="1211" y="852.02">IA 1 (Validação inicial PF/PJ)</text><polygon fill="#181818" points="1587.5,931.6172,1597.5,935.6172,1587.5,939.6172,1591.5,935.6172" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="652.5" x2="1593.5" y1="935.6172" y2="935.6172"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="184" x="659.5" y="885.1528">validar_documentos_openai(</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179" x="663.5" y="900.2856">job_id, dados_ocr, manifest,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="663.5" y="915.4185">modo="padrao")</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="178" x="659.5" y="930.5513">(usa prompts em /prompts)</text><polygon fill="#181818" points="663.5,975.8828,653.5,979.8828,663.5,983.8828,659.5,979.8828" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="657.5" x2="1603.5" y1="979.8828" y2="979.8828"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="229" x="669.5" y="959.6841">{ status, resultado, resposta_bruta,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="673.5" y="974.8169">evidencias IA1 }</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2636" x="0" y="1008.4492"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="1008.4492" y2="1008.4492"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="1011.4492" y2="1011.4492"/><rect fill="#EEEEEE" height="23.1328" style="stroke:#000000;stroke-width:2.0;" width="208" x="1214" y="997.8828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="189" x="1220" y="1013.9497">Consulta oficial (SERPRO)</text><polygon fill="#181818" points="1799.5,1063.2813,1809.5,1067.2813,1799.5,1071.2813,1803.5,1067.2813" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="652.5" x2="1805.5" y1="1067.2813" y2="1067.2813"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="158" x="659.5" y="1047.0825">consultar_cnpj(manifest)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="306" x="659.5" y="1062.2153">(salva entrada/saída em /outbox/&lt;job&gt;/serpro/)</text><polygon fill="#181818" points="663.5,1092.4141,653.5,1096.4141,663.5,1100.4141,659.5,1096.4141" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="657.5" x2="1815.5" y1="1096.4141" y2="1096.4141"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="291" x="669.5" y="1091.3481">{ status, dados_oficiais, evidencias SERPRO }</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2636" x="0" y="1124.9805"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="1124.9805" y2="1124.9805"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="1127.9805" y2="1127.9805"/><rect fill="#EEEEEE" height="23.1328" style="stroke:#000000;stroke-width:2.0;" width="323" x="1156.5" y="1114.4141"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="304" x="1162.5" y="1130.481">IA 2 (Comparativa: OCR + IA1 + SERPRO)</text><polygon fill="#181818" points="2011.5,1225.2109,2021.5,1229.2109,2011.5,1233.2109,2015.5,1229.2109" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="652.5" x2="2017.5" y1="1229.2109" y2="1229.2109"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="184" x="659.5" y="1163.6138">validar_documentos_openai(</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="663.5" y="1178.7466">job_id,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="275" x="663.5" y="1193.8794">{dados_ocr, dados_serpro, resultado_ia1},</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="663.5" y="1209.0122">manifest,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="663.5" y="1224.145">modo="comparativo")</text><polygon fill="#181818" points="663.5,1269.4766,653.5,1273.4766,663.5,1277.4766,659.5,1273.4766" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="657.5" x2="2027.5" y1="1273.4766" y2="1273.4766"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="262" x="669.5" y="1253.2778">{ status, resultado_final, resposta_bruta,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="673.5" y="1268.4106">evidencias IA2 }</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2636" x="0" y="1302.043"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="1302.043" y2="1302.043"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="1305.043" y2="1305.043"/><rect fill="#EEEEEE" height="23.1328" style="stroke:#000000;stroke-width:2.0;" width="216" x="1210" y="1291.4766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="197" x="1216" y="1307.5435">Consolidação e publicação</text><polygon fill="#181818" points="2196,1387.1406,2206,1391.1406,2196,1395.1406,2200,1391.1406" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="652.5" x2="2202" y1="1391.1406" y2="1391.1406"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132" x="659.5" y="1340.6763">gerar_relatorio_final(</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="105" x="663.5" y="1355.8091">job_id, manifest,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="663.5" y="1370.9419">ocr_result, ia1_result,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="159" x="663.5" y="1386.0747">serpro_result, ia2_result)</text><polygon fill="#181818" points="663.5,1461.6719,653.5,1465.6719,663.5,1469.6719,659.5,1465.6719" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="657.5" x2="2212" y1="1465.6719" y2="1465.6719"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="669.5" y="1415.2075">paths →</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="151" x="673.5" y="1430.3403">- resumo_executivo.md</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="156" x="673.5" y="1445.4731">- checklist_validacao.md</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="152" x="673.5" y="1460.606">- resultado_tecnico.json</text><polygon fill="#181818" points="2521.5,1490.8047,2531.5,1494.8047,2521.5,1498.8047,2525.5,1494.8047" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="652.5" x2="2527.5" y1="1494.8047" y2="1494.8047"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="255" x="659.5" y="1489.7388">registrar_evento(job, "RELATORIO", "ok")</text><line style="stroke:#181818;stroke-width:1.0;" x1="652.5" x2="694.5" y1="1544.0703" y2="1544.0703"/><line style="stroke:#181818;stroke-width:1.0;" x1="694.5" x2="694.5" y1="1544.0703" y2="1557.0703"/><line style="stroke:#181818;stroke-width:1.0;" x1="647.5" x2="694.5" y1="1557.0703" y2="1557.0703"/><polygon fill="#181818" points="657.5,1553.0703,647.5,1557.0703,657.5,1561.0703,653.5,1557.0703" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="196" x="659.5" y="1523.8716">mover job para /done ou /error</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="162" x="659.5" y="1539.0044">(conforme sucesso/falha)</text><rect fill="#EEEEEE" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="2636" x="0" y="1580.6367"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="1580.6367" y2="1580.6367"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="2636" y1="1583.6367" y2="1583.6367"/><rect fill="#EEEEEE" height="23.1328" style="stroke:#000000;stroke-width:2.0;" width="238" x="1199" y="1570.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="219" x="1205" y="1586.1372">Uso pela plataforma Licitanet</text><polygon fill="#181818" points="375.5,1635.4688,385.5,1639.4688,375.5,1643.4688,379.5,1639.4688" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="129.5" x2="381.5" y1="1639.4688" y2="1639.4688"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="221" x="136.5" y="1619.27">Abas "Monitoramento"/"Relatórios"</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="234" x="136.5" y="1634.4028">visualizam métricas e arquivos finais</text><path d="M392,1652.4688 L392,1767.4688 L799,1767.4688 L799,1662.4688 L789,1652.4688 L392,1652.4688 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><path d="M789,1652.4688 L789,1662.4688 L799,1662.4688 L789,1652.4688 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="398" y="1669.5356">interface_frontend.py</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="398" y="1684.6685"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="386" x="398" y="1699.8013">Abas: Upload, Monitoramento, Reprocessamento, Relatórios</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="398" y="1714.9341"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="296" x="398" y="1730.0669">Importa executar_pipeline_manual do main.py</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="398" y="1745.1997"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="280" x="398" y="1760.3325">Salva manifest + PDFs em /inbox/&lt;job_id&gt;/</text><path d="M652,1778.3984 L652,1893.3984 L1016,1893.3984 L1016,1788.3984 L1006,1778.3984 L652,1778.3984 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1006,1778.3984 L1006,1788.3984 L1016,1788.3984 L1006,1778.3984 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="251" x="658" y="1795.4653">watcher.py (arquivo atual: 1watcher.py)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="658" y="1810.5981"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="210" x="658" y="1825.731">detect_new_jobs(), process_job()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="658" y="1840.8638"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="261" x="658" y="1855.9966">detect_and_move_jobs(run_once=False)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="658" y="1871.1294"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="343" x="658" y="1886.2622">move_job_to_done(job_id), move_job_to_error(job_id)</text><path d="M1029,1904.3281 L1029,2095.3281 L1303,2095.3281 L1303,1914.3281 L1293,1904.3281 L1029,1904.3281 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1293,1904.3281 L1293,1914.3281 L1303,1914.3281 L1293,1904.3281 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="1035" y="1921.395">manifest_loader.py</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1035" y="1936.5278"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="253" x="1035" y="1951.6606">load_manifest(job_dir, strict_files=True)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="1035" y="1966.7935">Interno:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1035" y="1981.9263"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="210" x="1035" y="1997.0591">_apply_defaults_and_normalize()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1035" y="2012.1919"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="214" x="1035" y="2027.3247">_validate_manifest() (schema v3)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1035" y="2042.4575"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="123" x="1035" y="2057.5903">_check_files_exist()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1035" y="2072.7231"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="188" x="1035" y="2087.856">_save_normalized_manifest()</text><path d="M1233,2105.9219 L1233,2266.9219 L1448,2266.9219 L1448,2115.9219 L1438,2105.9219 L1233,2105.9219 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1438,2105.9219 L1438,2115.9219 L1448,2115.9219 L1438,2105.9219 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="1239" y="2122.9888">extrator_docling.py</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1239" y="2138.1216"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="194" x="1239" y="2153.2544">executar_ocr(job_id, manifest)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="1239" y="2168.3872">Aux:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1239" y="2183.52"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="138" x="1239" y="2198.6528">extrair_com_docling()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1239" y="2213.7856"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="153" x="1239" y="2228.9185">extrair_com_tesseract()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1239" y="2244.0513"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="1239" y="2259.1841">localizar_arquivo()</text><path d="M1417,2277.25 L1417,2423.25 L1905,2423.25 L1905,2287.25 L1895,2277.25 L1417,2277.25 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1895,2277.25 L1895,2287.25 L1905,2287.25 L1895,2277.25 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="218" x="1423" y="2294.3169">ocr_router.py (opcional/avançado)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1423" y="2309.4497"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="388" x="1423" y="2324.5825">process_pdf(path, job_id, arquivo_id, tipo_previsto, manifest)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1423" y="2339.7153"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="397" x="1423" y="2354.8481">idempotência via ledger.register_entry() + should_reprocess()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1423" y="2369.981"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="467" x="1423" y="2385.1138">_convert_with_docling()/_extract_with_pdfplumber()/_ocr_with_tesseract()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1423" y="2400.2466"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="298" x="1423" y="2415.3794">_post_process_markdown()/_classify_content()</text><path d="M1609,2433.4453 L1609,2564.4453 L2033,2564.4453 L2033,2443.4453 L2023,2433.4453 L1609,2433.4453 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><path d="M2023,2433.4453 L2023,2443.4453 L2033,2443.4453 L2023,2433.4453 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="1615" y="2450.5122">doc_verifier_agent.py</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1615" y="2465.645"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="403" x="1615" y="2480.7778">validar_documentos_openai(job_id, conteudo, manifest, modo)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="105" x="1615" y="2495.9106">Prompts oficiais:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1615" y="2511.0435"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="192" x="1615" y="2526.1763">/prompts/prompt_pf_2410.md</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1615" y="2541.3091"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="191" x="1615" y="2556.4419">/prompts/prompt_pj_2410.md</text><path d="M1821,2574.5078 L1821,2705.5078 L2000,2705.5078 L2000,2584.5078 L1990,2574.5078 L1821,2574.5078 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1990,2574.5078 L1990,2584.5078 L2000,2584.5078 L1990,2574.5078 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="1827" y="2591.5747">consulta_serpro.py</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1827" y="2606.7075"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="158" x="1827" y="2621.8403">consultar_cnpj(manifest)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="1827" y="2636.9731">Evidências:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1827" y="2652.106"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="1827" y="2667.2388">entrada_serpro_*.json</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="1827" y="2682.3716"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="126" x="1827" y="2697.5044">saida_serpro_*.json</text><path d="M2218,2715.5703 L2218,2936.5703 L2424,2936.5703 L2424,2725.5703 L2414,2715.5703 L2218,2715.5703 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><path d="M2414,2715.5703 L2414,2725.5703 L2424,2725.5703 L2414,2715.5703 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="2224" y="2732.6372">relatorio.py</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="2224" y="2747.77"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="149" x="2224" y="2762.9028">gerar_relatorio_final(...)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="2224" y="2778.0356"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="2224" y="2793.1685">gerar_resumo_executivo(...)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="2224" y="2808.3013"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="185" x="2224" y="2823.4341">gerar_checklist_validacao(...)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="47" x="2224" y="2838.5669">Saídas:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="2224" y="2853.6997"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="2224" y="2868.8325">resumo_executivo.md</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="2224" y="2883.9653"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="2224" y="2899.0981">checklist_validacao.md</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="2224" y="2914.231"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="2224" y="2929.3638">resultado_tecnico.json</text><path d="M2182,2947.4297 L2182,3078.4297 L2362,3078.4297 L2362,2957.4297 L2352,2947.4297 L2182,2947.4297 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><path d="M2352,2947.4297 L2352,2957.4297 L2362,2957.4297 L2352,2947.4297 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="2188" y="2964.4966">ledger.py</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="2188" y="2979.6294"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="111" x="2188" y="2994.7622">register_entry(...)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="2188" y="3009.895"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="2188" y="3025.0278">should_reprocess(...)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="2188" y="3040.1606"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="2188" y="3055.2935">consultar_ledger(...)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="159" x="2188" y="3070.4263">Arquivo: logs/ledger.jsonl</text><path d="M2292,3088.4922 L2292,3219.4922 L2528,3219.4922 L2528,3098.4922 L2518,3088.4922 L2292,3088.4922 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><path d="M2518,3088.4922 L2518,3098.4922 L2528,3098.4922 L2518,3088.4922 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="2298" y="3105.5591">log_service.py</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="2298" y="3120.6919"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="2298" y="3135.8247">get_logger(name)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="2298" y="3150.9575"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="2298" y="3166.0903">init_folders()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="2298" y="3181.2231"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="215" x="2298" y="3196.356">registrar_evento(job, etapa, msg)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="204" x="2298" y="3211.4888">Cria estrutura padrão de pastas</text><path d="M5,3229.5547 L5,3314.5547 L383,3314.5547 L383,3239.5547 L373,3229.5547 L5,3229.5547 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><path d="M373,3229.5547 L373,3239.5547 L383,3239.5547 L373,3229.5547 " fill="#F8F8F8" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="11" y="3246.6216">main.py</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="11" y="3261.7544"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="357" x="11" y="3276.8872">executar_pipeline_manual(job_id) → pipeline end-to-end</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="11" y="3292.02"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="312" x="11" y="3307.1528">detect_and_move_jobs() (produção, via watcher)</text><!--MD5=[fa000fc5e69389f47d92b9624daad235]
+@startuml
+skinparam monochrome true
+skinparam sequenceArrowThickness 1
+skinparam ParticipantPadding 20
+skinparam BoxPadding 10
+skinparam NoteBackgroundColor #F8F8F8
+skinparam NoteBorderColor #B0B0B0
+
+actor "Usuário (Comprador/Operador)" as User
+participant "Interface\nStreamlit\n(interface_frontend.py)" as UI
+participant "Watcher\n(watcher.py*)\n(*arquivo atual: 1watcher.py)" as Watcher
+participant "Manifest Loader\n(manifest_loader.py)" as MLoad
+participant "OCR Básico\n(extrator_docling.py)" as OCR1
+participant "OCR Router\n(ocr_router.py)\n(opcional)" as OCR2
+participant "IA1 - Validador\n(doc_verifier_agent.py)" as IA1
+participant "SERPRO\n(consulta_serpro.py)" as SERPRO
+participant "IA2 - Comparativa\n(doc_verifier_agent.py)" as IA2
+participant "Relatórios\n(relatorio.py)" as Report
+collections "Ledger\n(ledger.jsonl)" as Ledger
+collections "Logs\n(log_service.py)" as Logs
+
+== Início: submissão de job ==
+User -> UI : Upload manifest.json + PDFs\n(Aba "Upload de Job")
+activate UI
+UI -> Watcher : (opcional) acionar execução manual\nexecutar_pipeline_manual(job_id)\n(ou apenas gravar em /inbox)
+deactivate UI
+
+== Detecção e preparação ==
+activate Watcher
+Watcher -> Watcher : detect_and_move_jobs(run_once|loop)\nlistar pastas em /inbox
+Watcher -> MLoad : load_manifest(job_dir=/<inbox|processing>/<job_id>,\n strict_files=True)\n(validar schema v3 + normalizar)
+activate MLoad
+MLoad - -> Watcher : manifest normalizado
+deactivate MLoad
+
+== Extração de conteúdo (Markdown) ==
+Watcher -> OCR1 : executar_ocr(job_id, manifest)\n(Docling → fallback Tesseract)\n→ salva evidências .md
+activate OCR1
+OCR1 - -> Watcher : { status, dados_extraidos, evidencias }
+deactivate OCR1
+
+alt Ambiente com OCR Router avançado
+Watcher -> OCR2 : process_pdf(path_pdf, job_id, arquivo_id,\n tipo_previsto, manifest)\nclassifica texto|imagem|tabela\npós-processa markdown + ledger
+activate OCR2
+OCR2 -> Ledger : register_entry(job_id, arquivo_id,\n etapa="OCR", hash_pdf, hash_md, status)
+Ledger - -> OCR2 : OK
+OCR2 - -> Watcher : { conteudo_markdown, diagnostico,\n tipo_detectado, origem_extracao }
+deactivate OCR2
+else Apenas OCR básico (extrator_docling)
+Watcher -> Logs : registrar_evento(job, "OCR", "concluído")
+end
+
+== IA 1 (Validação inicial PF/PJ) ==
+Watcher -> IA1 : validar_documentos_openai(\n job_id, dados_ocr, manifest,\n modo="padrao")\n(usa prompts em /prompts)
+activate IA1
+IA1 - -> Watcher : { status, resultado, resposta_bruta,\n evidencias IA1 }
+deactivate IA1
+
+== Consulta oficial (SERPRO) ==
+Watcher -> SERPRO : consultar_cnpj(manifest)\n(salva entrada/saída em /outbox/<job>/serpro/)
+activate SERPRO
+SERPRO - -> Watcher : { status, dados_oficiais, evidencias SERPRO }
+deactivate SERPRO
+
+== IA 2 (Comparativa: OCR + IA1 + SERPRO) ==
+Watcher -> IA2 : validar_documentos_openai(\n job_id,\n {dados_ocr, dados_serpro, resultado_ia1},\n manifest,\n modo="comparativo")
+activate IA2
+IA2 - -> Watcher : { status, resultado_final, resposta_bruta,\n evidencias IA2 }
+deactivate IA2
+
+== Consolidação e publicação ==
+Watcher -> Report : gerar_relatorio_final(\n job_id, manifest,\n ocr_result, ia1_result,\n serpro_result, ia2_result)
+activate Report
+Report - -> Watcher : paths →\n - resumo_executivo.md\n - checklist_validacao.md\n - resultado_tecnico.json
+deactivate Report
+
+Watcher -> Logs : registrar_evento(job, "RELATORIO", "ok")
+Watcher -> Watcher : mover job para /done ou /error\n(conforme sucesso/falha)
+deactivate Watcher
+
+== Uso pela plataforma Licitanet ==
+UI <- User : Abas "Monitoramento"/"Relatórios"\nvisualizam métricas e arquivos finais
+
+' =========================
+' Notas com funções-chave (mapeadas ao código do ficheiro)
+' =========================
+note right of UI
+interface_frontend.py
+
+Abas: Upload, Monitoramento, Reprocessamento, Relatórios
+
+Importa executar_pipeline_manual do main.py
+
+Salva manifest + PDFs em /inbox/<job_id>/
+end note
+
+note right of Watcher
+watcher.py (arquivo atual: 1watcher.py)
+
+detect_new_jobs(), process_job()
+
+detect_and_move_jobs(run_once=False)
+
+move_job_to_done(job_id), move_job_to_error(job_id)
+end note
+
+note right of MLoad
+manifest_loader.py
+
+load_manifest(job_dir, strict_files=True)
+Interno:
+
+_apply_defaults_and_normalize()
+
+_validate_manifest() (schema v3)
+
+_check_files_exist()
+
+_save_normalized_manifest()
+end note
+
+note right of OCR1
+extrator_docling.py
+
+executar_ocr(job_id, manifest)
+Aux:
+
+extrair_com_docling()
+
+extrair_com_tesseract()
+
+localizar_arquivo()
+end note
+
+note right of OCR2
+ocr_router.py (opcional/avançado)
+
+process_pdf(path, job_id, arquivo_id, tipo_previsto, manifest)
+
+idempotência via ledger.register_entry() + should_reprocess()
+
+_convert_with_docling()/_extract_with_pdfplumber()/_ocr_with_tesseract()
+
+_post_process_markdown()/_classify_content()
+end note
+
+note right of IA1
+doc_verifier_agent.py
+
+validar_documentos_openai(job_id, conteudo, manifest, modo)
+Prompts oficiais:
+
+/prompts/prompt_pf_2410.md
+
+/prompts/prompt_pj_2410.md
+end note
+
+note right of SERPRO
+consulta_serpro.py
+
+consultar_cnpj(manifest)
+Evidências:
+
+entrada_serpro_*.json
+
+saida_serpro_*.json
+end note
+
+note right of Report
+relatorio.py
+
+gerar_relatorio_final(...)
+
+gerar_resumo_executivo(...)
+
+gerar_checklist_validacao(...)
+Saídas:
+
+resumo_executivo.md
+
+checklist_validacao.md
+
+resultado_tecnico.json
+end note
+
+note left of Ledger
+ledger.py
+
+register_entry(...)
+
+should_reprocess(...)
+
+consultar_ledger(...)
+Arquivo: logs/ledger.jsonl
+end note
+
+note left of Logs
+log_service.py
+
+get_logger(name)
+
+init_folders()
+
+registrar_evento(job, etapa, msg)
+Cria estrutura padrão de pastas
+end note
+
+note left of UI
+main.py
+
+executar_pipeline_manual(job_id) → pipeline end-to-end
+
+detect_and_move_jobs() (produção, via watcher)
+end note
+@enduml
+
+@startuml
+skinparam monochrome true
+skinparam sequenceArrowThickness 1
+skinparam ParticipantPadding 20
+skinparam BoxPadding 10
+skinparam NoteBackgroundColor #F8F8F8
+skinparam NoteBorderColor #B0B0B0
+
+actor "Usuário (Comprador/Operador)" as User
+participant "Interface\nStreamlit\n(interface_frontend.py)" as UI
+participant "Watcher\n(watcher.py*)\n(*arquivo atual: 1watcher.py)" as Watcher
+participant "Manifest Loader\n(manifest_loader.py)" as MLoad
+participant "OCR Básico\n(extrator_docling.py)" as OCR1
+participant "OCR Router\n(ocr_router.py)\n(opcional)" as OCR2
+participant "IA1 - Validador\n(doc_verifier_agent.py)" as IA1
+participant "SERPRO\n(consulta_serpro.py)" as SERPRO
+participant "IA2 - Comparativa\n(doc_verifier_agent.py)" as IA2
+participant "Relatórios\n(relatorio.py)" as Report
+collections "Ledger\n(ledger.jsonl)" as Ledger
+collections "Logs\n(log_service.py)" as Logs
+
+== Início: submissão de job ==
+User -> UI : Upload manifest.json + PDFs\n(Aba "Upload de Job")
+activate UI
+UI -> Watcher : (opcional) acionar execução manual\nexecutar_pipeline_manual(job_id)\n(ou apenas gravar em /inbox)
+deactivate UI
+
+== Detecção e preparação ==
+activate Watcher
+Watcher -> Watcher : detect_and_move_jobs(run_once|loop)\nlistar pastas em /inbox
+Watcher -> MLoad : load_manifest(job_dir=/<inbox|processing>/<job_id>,\n strict_files=True)\n(validar schema v3 + normalizar)
+activate MLoad
+MLoad - -> Watcher : manifest normalizado
+deactivate MLoad
+
+== Extração de conteúdo (Markdown) ==
+Watcher -> OCR1 : executar_ocr(job_id, manifest)\n(Docling → fallback Tesseract)\n→ salva evidências .md
+activate OCR1
+OCR1 - -> Watcher : { status, dados_extraidos, evidencias }
+deactivate OCR1
+
+alt Ambiente com OCR Router avançado
+Watcher -> OCR2 : process_pdf(path_pdf, job_id, arquivo_id,\n tipo_previsto, manifest)\nclassifica texto|imagem|tabela\npós-processa markdown + ledger
+activate OCR2
+OCR2 -> Ledger : register_entry(job_id, arquivo_id,\n etapa="OCR", hash_pdf, hash_md, status)
+Ledger - -> OCR2 : OK
+OCR2 - -> Watcher : { conteudo_markdown, diagnostico,\n tipo_detectado, origem_extracao }
+deactivate OCR2
+else Apenas OCR básico (extrator_docling)
+Watcher -> Logs : registrar_evento(job, "OCR", "concluído")
+end
+
+== IA 1 (Validação inicial PF/PJ) ==
+Watcher -> IA1 : validar_documentos_openai(\n job_id, dados_ocr, manifest,\n modo="padrao")\n(usa prompts em /prompts)
+activate IA1
+IA1 - -> Watcher : { status, resultado, resposta_bruta,\n evidencias IA1 }
+deactivate IA1
+
+== Consulta oficial (SERPRO) ==
+Watcher -> SERPRO : consultar_cnpj(manifest)\n(salva entrada/saída em /outbox/<job>/serpro/)
+activate SERPRO
+SERPRO - -> Watcher : { status, dados_oficiais, evidencias SERPRO }
+deactivate SERPRO
+
+== IA 2 (Comparativa: OCR + IA1 + SERPRO) ==
+Watcher -> IA2 : validar_documentos_openai(\n job_id,\n {dados_ocr, dados_serpro, resultado_ia1},\n manifest,\n modo="comparativo")
+activate IA2
+IA2 - -> Watcher : { status, resultado_final, resposta_bruta,\n evidencias IA2 }
+deactivate IA2
+
+== Consolidação e publicação ==
+Watcher -> Report : gerar_relatorio_final(\n job_id, manifest,\n ocr_result, ia1_result,\n serpro_result, ia2_result)
+activate Report
+Report - -> Watcher : paths →\n - resumo_executivo.md\n - checklist_validacao.md\n - resultado_tecnico.json
+deactivate Report
+
+Watcher -> Logs : registrar_evento(job, "RELATORIO", "ok")
+Watcher -> Watcher : mover job para /done ou /error\n(conforme sucesso/falha)
+deactivate Watcher
+
+== Uso pela plataforma Licitanet ==
+UI <- User : Abas "Monitoramento"/"Relatórios"\nvisualizam métricas e arquivos finais
+
+note right of UI
+interface_frontend.py
+
+Abas: Upload, Monitoramento, Reprocessamento, Relatórios
+
+Importa executar_pipeline_manual do main.py
+
+Salva manifest + PDFs em /inbox/<job_id>/
+end note
+
+note right of Watcher
+watcher.py (arquivo atual: 1watcher.py)
+
+detect_new_jobs(), process_job()
+
+detect_and_move_jobs(run_once=False)
+
+move_job_to_done(job_id), move_job_to_error(job_id)
+end note
+
+note right of MLoad
+manifest_loader.py
+
+load_manifest(job_dir, strict_files=True)
+Interno:
+
+_apply_defaults_and_normalize()
+
+_validate_manifest() (schema v3)
+
+_check_files_exist()
+
+_save_normalized_manifest()
+end note
+
+note right of OCR1
+extrator_docling.py
+
+executar_ocr(job_id, manifest)
+Aux:
+
+extrair_com_docling()
+
+extrair_com_tesseract()
+
+localizar_arquivo()
+end note
+
+note right of OCR2
+ocr_router.py (opcional/avançado)
+
+process_pdf(path, job_id, arquivo_id, tipo_previsto, manifest)
+
+idempotência via ledger.register_entry() + should_reprocess()
+
+_convert_with_docling()/_extract_with_pdfplumber()/_ocr_with_tesseract()
+
+_post_process_markdown()/_classify_content()
+end note
+
+note right of IA1
+doc_verifier_agent.py
+
+validar_documentos_openai(job_id, conteudo, manifest, modo)
+Prompts oficiais:
+
+/prompts/prompt_pf_2410.md
+
+/prompts/prompt_pj_2410.md
+end note
+
+note right of SERPRO
+consulta_serpro.py
+
+consultar_cnpj(manifest)
+Evidências:
+
+entrada_serpro_*.json
+
+saida_serpro_*.json
+end note
+
+note right of Report
+relatorio.py
+
+gerar_relatorio_final(...)
+
+gerar_resumo_executivo(...)
+
+gerar_checklist_validacao(...)
+Saídas:
+
+resumo_executivo.md
+
+checklist_validacao.md
+
+resultado_tecnico.json
+end note
+
+note left of Ledger
+ledger.py
+
+register_entry(...)
+
+should_reprocess(...)
+
+consultar_ledger(...)
+Arquivo: logs/ledger.jsonl
+end note
+
+note left of Logs
+log_service.py
+
+get_logger(name)
+
+init_folders()
+
+registrar_evento(job, etapa, msg)
+Cria estrutura padrão de pastas
+end note
+
+note left of UI
+main.py
+
+executar_pipeline_manual(job_id) → pipeline end-to-end
+
+detect_and_move_jobs() (produção, via watcher)
+end note
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

@@ -1,0 +1,50 @@
+# =====================================================
+# 🐳 Dockerfile — LICITANET + OCR + OPENAI
+# Baseado em Python 3.11 Slim
+# =====================================================
+FROM python:3.11-slim
+
+# Diretório de trabalho dentro do container
+WORKDIR /app
+
+# =====================================================
+# 🔧 Configurações básicas
+# =====================================================
+# Evita cache pesado do pip e define variáveis de ambiente
+ENV PIP_NO_CACHE_DIR=1 \
+    PYTHONUNBUFFERED=1 \
+    TZ=America/Sao_Paulo
+
+# Instala dependências do sistema necessárias ao Tesseract, pdf2image e compilação
+RUN apt-get update && apt-get install -y \
+    tesseract-ocr \
+    poppler-utils \
+    libgl1-mesa-glx \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# =====================================================
+# 📦 Instala dependências Python
+# =====================================================
+# Copia apenas o requirements para cache otimizado
+COPY requirements.txt .
+RUN pip install --upgrade pip && pip install -r requirements.txt
+
+# =====================================================
+# 📁 Copia todo o projeto
+# =====================================================
+COPY . .
+
+# =====================================================
+# 🌍 Exposição de portas
+# =====================================================
+# Streamlit utiliza por padrão a porta 8501
+EXPOSE 8501
+
+# =====================================================
+# 🚀 Comando padrão de execução
+# =====================================================
+# Para rodar interface Streamlit (frontend):
+# CMD ["streamlit", "run", "interface_frontend.py", "--server.port=8501", "--server.address=0.0.0.0"]
+
+# Para rodar pipeline automático (modo produção):
+CMD ["python", "main.py"]

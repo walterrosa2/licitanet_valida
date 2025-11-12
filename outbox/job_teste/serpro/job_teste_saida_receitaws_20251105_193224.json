@@ -1,0 +1,122 @@
+{
+  "abertura": "30/03/2015",
+  "situacao": "ATIVA",
+  "tipo": "MATRIZ",
+  "nome": "BMF TURISMO LTDA",
+  "fantasia": "BMF TURISMO",
+  "porte": "MICRO EMPRESA",
+  "natureza_juridica": "206-2 - Sociedade Empresária Limitada",
+  "atividade_principal": [
+    {
+      "code": "49.29-9-02",
+      "text": "Transporte rodoviário coletivo de passageiros, sob regime de fretamento, intermunicipal, interestadual e internacional"
+    }
+  ],
+  "atividades_secundarias": [
+    {
+      "code": "37.02-9-00",
+      "text": "Atividades relacionadas a esgoto, exceto a gestão de redes"
+    },
+    {
+      "code": "38.11-4-00",
+      "text": "Coleta de resíduos não-perigosos"
+    },
+    {
+      "code": "38.21-1-00",
+      "text": "Tratamento e disposição de resíduos não-perigosos"
+    },
+    {
+      "code": "42.11-1-01",
+      "text": "Construção de rodovias e ferrovias"
+    },
+    {
+      "code": "42.22-7-01",
+      "text": "Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas, exceto obras de irrigação"
+    },
+    {
+      "code": "42.22-7-02",
+      "text": "Obras de irrigação"
+    },
+    {
+      "code": "42.99-5-99",
+      "text": "Outras obras de engenharia civil não especificadas anteriormente"
+    },
+    {
+      "code": "43.13-4-00",
+      "text": "Obras de terraplenagem"
+    },
+    {
+      "code": "49.24-8-00",
+      "text": "Transporte escolar"
+    },
+    {
+      "code": "49.29-9-01",
+      "text": "Transporte rodoviário coletivo de passageiros, sob regime de fretamento, municipal"
+    },
+    {
+      "code": "71.12-0-00",
+      "text": "Serviços de engenharia (Dispensada *)"
+    },
+    {
+      "code": "77.11-0-00",
+      "text": "Locação de automóveis sem condutor"
+    },
+    {
+      "code": "77.31-4-00",
+      "text": "Aluguel de máquinas e equipamentos agrícolas sem operador"
+    },
+    {
+      "code": "77.32-2-01",
+      "text": "Aluguel de máquinas e equipamentos para construção sem operador, exceto andaimes"
+    },
+    {
+      "code": "77.39-0-01",
+      "text": "Aluguel de máquinas e equipamentos para extração de minérios e petróleo, sem operador"
+    },
+    {
+      "code": "79.11-2-00",
+      "text": "Agências de viagens (Dispensada *)"
+    }
+  ],
+  "qsa": [
+    {
+      "nome": "FERNANDO DE LIMA VILA NOVA",
+      "qual": "49-Sócio-Administrador"
+    }
+  ],
+  "logradouro": "R GUIMARAES ROSA",
+  "numero": "1000",
+  "complemento": "SALA A",
+  "municipio": "SETE LAGOAS",
+  "bairro": "BOM JARDIM",
+  "uf": "MG",
+  "cep": "35.701-035",
+  "email": "nando_vilanova@yahoo.com.br",
+  "telefone": "(31) 3773-7062",
+  "data_situacao": "30/03/2015",
+  "cnpj": "22.157.088/0001-92",
+  "ultima_atualizacao": "2025-11-04T13:49:33.097Z",
+  "status": "OK",
+  "efr": "",
+  "motivo_situacao": "",
+  "situacao_especial": "",
+  "data_situacao_especial": "",
+  "capital_social": "150000.00",
+  "simples": {
+    "optante": true,
+    "data_opcao": "30/03/2015",
+    "data_exclusao": null,
+    "ultima_atualizacao": "2025-10-12T23:59:59.000Z"
+  },
+  "simei": {
+    "optante": false,
+    "data_opcao": "30/03/2015",
+    "data_exclusao": "31/01/2020",
+    "ultima_atualizacao": "2025-10-12T23:59:59.000Z"
+  },
+  "extra": {},
+  "billing": {
+    "free": true,
+    "database": true
+  }
+}

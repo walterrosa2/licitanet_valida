@@ -1,0 +1,218 @@
+{
+  "job_id": "job_bmf_turismo_001",
+  "manifest": {
+    "job_id": "job_bmf_turismo_001",
+    "fornecedor_id": "22157088000192",
+    "perfil_validacao": "PJ",
+    "contexto": {
+      "razao_social": "BMF TURISMO LTDA",
+      "cnpj": "22.157.088/0001-92",
+      "responsavel": "FERNANDO DE LIMA VILA NOVA",
+      "origem_dados": "simulação_licitanet",
+      "descricao": "Validação documental societária BMF TURISMO LTDA — contrato social, alteração contratual e cartão CNPJ"
+    },
+    "reprocessar": false,
+    "reprocess_scope": "AUTO_MANIFEST",
+    "arquivos": [
+      {
+        "id": "a1",
+        "nome": "cartao_cnpj.pdf",
+        "tipo_previsto": "CARTAO_CNPJ",
+        "origem": "fornecedor",
+        "paginas": 1,
+        "hash": "cartao_cnpj_22157088000192",
+        "legibilidade_score": 0.98,
+        "opcional": false
+      }
+    ],
+    "metadados": {
+      "fonte_upload": "simulação_local",
+      "data_manifesto": "2025-11-05T15:45:00-03:00"
+    },
+    "subperfil_pf": null
+  },
+  "ocr_result": {
+    "status": "OK",
+    "job_id": "job_bmf_turismo_001",
+    "evidencias_dir": "evidencias\\ocr\\job_bmf_turismo_001",
+    "dados_extraidos": "\n\n# cartao_cnpj.pdf (Docling)\n<!-- image -->\n\n## REPÚBLICA FEDERATIVA DO BRASIL\n\n## CADASTRO NACIONAL DA PESSOA JURÍDICA\n\nNÚMERO DE INSCRIÇÃO\n\n22.157.088/0001-92 MATRIZ\n\n## COMPROVANTE DE INSCRIÇÃO E DE SITUAÇÃO CADASTRAL\n\nDATA DE ABERTURA\n\n30/03/2015\n\nNOME EMPRESARIAL\n\nBMF TURISMO LTDA\n\nTÍTULO DO ESTABELECIMENTO (NOME DE FANTASIA)\n\nBMF TURISMO\n\nPORTE\n\nME\n\nCÓDIGO E DESCRIÇÃO DA ATIVIDADE ECONÔMICA PRINCIPAL\n\n49.29-9-02 - Transporte rodoviário coletivo de passageiros, sob regime de fretamento, intermunicipal, interestadual e internacional\n\nCÓDIGO E DESCRIÇÃO DAS ATIVIDADES ECONÔMICAS SECUNDÁRIAS\n\n37.02-9-00 - Atividades relacionadas a esgoto, exceto a gestão de redes\n\n38.11-4-00 - Coleta de resíduos não-perigosos\n\n38.21-1-00 - Tratamento e disposição de resíduos não-perigosos\n\n42.11-1-01 - Construção de rodovias e ferrovias\n\n42.22-7-01 - Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas, exceto obras de irrigação\n\n42.22-7-02 - Obras de irrigação\n\n42.99-5-99 - Outras obras de engenharia civil não especificadas anteriormente\n\n43.13-4-00 - Obras de terraplenagem\n\n49.24-8-00 - Transporte escolar\n\n49.29-9-01 - Transporte rodoviário coletivo de passageiros, sob regime de fretamento, municipal\n\n71.12-0-00 - Serviços de engenharia (Dispensada *)\n\n77.11-0-00 - Locação de automóveis sem condutor\n\n77.31-4-00 - Aluguel de máquinas e equipamentos agrícolas sem operador\n\n77.32-2-01 - Aluguel de máquinas e equipamentos para construção sem operador, exceto andaimes\n\n77.39-0-01 - Aluguel de máquinas e equipamentos para extração de minérios e petróleo, sem operador\n\n79.11-2-00 - Agências de viagens (Dispensada *)\n\nCÓDIGO E DESCRIÇÃO DA NATUREZA JURÍDICA\n\n206-2 - Sociedade Empresária Limitada\n\nLOGRADOURO\n\nR GUIMARAES ROSA\n\nNÚMERO\n\n1000\n\nCOMPLEMENTO\n\nSALA A\n\nCEP\n\n35.701-035\n\nBAIRRO/DISTRITO\n\nBOM JARDIM\n\nMUNICÍPIO\n\nSETE LAGOAS\n\nUF MG\n\nENDEREÇO ELETRÔNICO\n\nnando\\_vilanova@yahoo.com.br\n\nTELEFONE\n\n(31) 3773-7062\n\nENTE FEDERATIVO RESPONSÁVEL (EFR)\n\n*****\n\nSITUAÇÃO CADASTRAL\n\nATIVA\n\nDATA DA SITUAÇÃO CADASTRAL\n\n30/03/2015\n\nMOTIVO DE SITUAÇÃO CADASTRAL\n\nSITUAÇÃO ESPECIAL\n\n********\n\nDATA DA SITUAÇÃO ESPECIAL ********\n\n(*) A dispensa de alvarás e licenças é direito do empreendedor que atende aos requisitos constantes na Resolução CGSIM nº 51, de 11 de junho  de  2019,  ou  da  legislação  própria  encaminhada  ao  CGSIM  pelos  entes  federativos,  não  tendo  a  Receita  Federal  qualquer responsabilidade quanto às atividades dispensadas.",
+    "arquivos": [
+      {
+        "arquivo": "cartao_cnpj.pdf",
+        "metodo": "Docling",
+        "evidencia": "evidencias\\ocr\\job_bmf_turismo_001\\cartao_cnpj_Docling.md",
+        "status": "OK",
+        "tamanho_texto": 2460
+      }
+    ],
+    "data_execucao": "2025-11-06T08:52:57.181893"
+  },
+  "ia1_result": {
+    "status": "OK",
+    "job_id": "job_bmf_turismo_001",
+    "modo": "padrao",
+    "resultado": {
+      "resposta_livre": "```json\n{\n  \"empresa\": \"BMF TURISMO LTDA\",\n  \"tentativa\": 1,\n  \"documentos_recebidos\": [\n    \"cartao_cnpj.pdf\"\n  ],\n  \"checklist\": {\n    \"contrato\": {\n      \"tipo\": \"Outro\",\n      \"criticos\": {\n        \"nome_empresarial\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"NOME EMPRESARIAL\\n\\nBMF TURISMO LTDA\"\n            }\n          ]\n        },\n        \"municipio\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"MUNICÍPIO\\n\\nSETE LAGOAS\"\n            }\n          ]\n        },\n        \"uf\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"UF MG\"\n            }\n          ]\n        },\n        \"qsa_administrador\": {\n          \"status\": \"INSUFICIENTE\",\n          \"evidencias\": [],\n          \"observacao\": \"Falta informação sobre o administrador/representante na QSA.\"\n        },\n        \"assinatura_junta_ou_juridica\": {\n          \"status\": \"INSUFICIENTE\",\n          \"evidencias\": [],\n          \"observacao\": \"Falta prova de assinatura ou registro na Junta/Cartório.\"\n        }\n      },\n      \"nao_criticos\": {\n        \"endereco\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"LOGRADOURO\\n\\nR GUIMARAES ROSA\\n\\nNÚMERO\\n\\n1000\"\n            }\n          ]\n        },\n        \"cep\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"CEP\\n\\n35.701-035\"\n            }\n          ]\n        },\n        \"enquadramento\": {\n          \"status\": \"INSUFICIENTE\",\n          \"evidencias\": [],\n          \"observacao\": \"Falta informação sobre o enquadramento.\"\n        }\n      }\n    },\n    \"cpf_representante\": {\n      \"status\": \"INSUFICIENTE\",\n      \"evidencias\": [],\n      \"observacao\": \"Falta CPF do representante legal.\"\n    },\n    \"procuracao\": {\n      \"status\": \"INSUFICIENTE\",\n      \"outorgante\": \"\",\n      \"outorgado\": \"\",\n      \"validade\": \"\",\n      \"evidencias\": [],\n      \"observacao\": \"Falta procuração válida se o operador não for o representante legal.\"\n    },\n    \"cartao_cnpj\": {\n      \"status\": \"APROVADO\"\n    }\n  },\n  \"regras_disparadas\": [],\n  \"reincidencia\": {\n    \"houve\": false,\n    \"politica\": \"ressalva_2a_tentativa_vira_impeditivo\"\n  },\n  \"decisao_final\": {\n    \"status_global\": \"IMPEDITIVO\",\n    \"justificativa\": \"Faltam informações críticas sobre o administrador e a assinatura na Junta/Cartório.\",\n    \"acoes_recomendadas\": [\n      \"Enviar documento que comprove o administrador/representante na QSA.\",\n      \"Enviar prova de assinatura ou registro na Junta/Cartório.\",\n      \"Enviar CPF do representante legal.\",\n      \"Enviar procuração válida se o operador não for o representante legal.\"\n    ]\n  }\n}\n```"
+    },
+    "resposta_bruta": "```json\n{\n  \"empresa\": \"BMF TURISMO LTDA\",\n  \"tentativa\": 1,\n  \"documentos_recebidos\": [\n    \"cartao_cnpj.pdf\"\n  ],\n  \"checklist\": {\n    \"contrato\": {\n      \"tipo\": \"Outro\",\n      \"criticos\": {\n        \"nome_empresarial\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"NOME EMPRESARIAL\\n\\nBMF TURISMO LTDA\"\n            }\n          ]\n        },\n        \"municipio\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"MUNICÍPIO\\n\\nSETE LAGOAS\"\n            }\n          ]\n        },\n        \"uf\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"UF MG\"\n            }\n          ]\n        },\n        \"qsa_administrador\": {\n          \"status\": \"INSUFICIENTE\",\n          \"evidencias\": [],\n          \"observacao\": \"Falta informação sobre o administrador/representante na QSA.\"\n        },\n        \"assinatura_junta_ou_juridica\": {\n          \"status\": \"INSUFICIENTE\",\n          \"evidencias\": [],\n          \"observacao\": \"Falta prova de assinatura ou registro na Junta/Cartório.\"\n        }\n      },\n      \"nao_criticos\": {\n        \"endereco\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"LOGRADOURO\\n\\nR GUIMARAES ROSA\\n\\nNÚMERO\\n\\n1000\"\n            }\n          ]\n        },\n        \"cep\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"CEP\\n\\n35.701-035\"\n            }\n          ]\n        },\n        \"enquadramento\": {\n          \"status\": \"INSUFICIENTE\",\n          \"evidencias\": [],\n          \"observacao\": \"Falta informação sobre o enquadramento.\"\n        }\n      }\n    },\n    \"cpf_representante\": {\n      \"status\": \"INSUFICIENTE\",\n      \"evidencias\": [],\n      \"observacao\": \"Falta CPF do representante legal.\"\n    },\n    \"procuracao\": {\n      \"status\": \"INSUFICIENTE\",\n      \"outorgante\": \"\",\n      \"outorgado\": \"\",\n      \"validade\": \"\",\n      \"evidencias\": [],\n      \"observacao\": \"Falta procuração válida se o operador não for o representante legal.\"\n    },\n    \"cartao_cnpj\": {\n      \"status\": \"APROVADO\"\n    }\n  },\n  \"regras_disparadas\": [],\n  \"reincidencia\": {\n    \"houve\": false,\n    \"politica\": \"ressalva_2a_tentativa_vira_impeditivo\"\n  },\n  \"decisao_final\": {\n    \"status_global\": \"IMPEDITIVO\",\n    \"justificativa\": \"Faltam informações críticas sobre o administrador e a assinatura na Junta/Cartório.\",\n    \"acoes_recomendadas\": [\n      \"Enviar documento que comprove o administrador/representante na QSA.\",\n      \"Enviar prova de assinatura ou registro na Junta/Cartório.\",\n      \"Enviar CPF do representante legal.\",\n      \"Enviar procuração válida se o operador não for o representante legal.\"\n    ]\n  }\n}\n```",
+    "data_execucao": "2025-11-06T08:53:20.186067",
+    "arquivos_evidencia": {
+      "entrada": "outbox\\job_bmf_turismo_001\\ia\\job_bmf_turismo_001_entrada_padrao_20251106_085320.json",
+      "saida": "outbox\\job_bmf_turismo_001\\ia\\job_bmf_turismo_001_saida_padrao_20251106_085320.json"
+    }
+  },
+  "serpro_result": {
+    "status": "OK",
+    "job_id": "job_bmf_turismo_001",
+    "cnpj": "22157088000192",
+    "dados": {
+      "abertura": "30/03/2015",
+      "situacao": "ATIVA",
+      "tipo": "MATRIZ",
+      "nome": "BMF TURISMO LTDA",
+      "fantasia": "BMF TURISMO",
+      "porte": "MICRO EMPRESA",
+      "natureza_juridica": "206-2 - Sociedade Empresária Limitada",
+      "atividade_principal": [
+        {
+          "code": "49.29-9-02",
+          "text": "Transporte rodoviário coletivo de passageiros, sob regime de fretamento, intermunicipal, interestadual e internacional"
+        }
+      ],
+      "atividades_secundarias": [
+        {
+          "code": "37.02-9-00",
+          "text": "Atividades relacionadas a esgoto, exceto a gestão de redes"
+        },
+        {
+          "code": "38.11-4-00",
+          "text": "Coleta de resíduos não-perigosos"
+        },
+        {
+          "code": "38.21-1-00",
+          "text": "Tratamento e disposição de resíduos não-perigosos"
+        },
+        {
+          "code": "42.11-1-01",
+          "text": "Construção de rodovias e ferrovias"
+        },
+        {
+          "code": "42.22-7-01",
+          "text": "Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas, exceto obras de irrigação"
+        },
+        {
+          "code": "42.22-7-02",
+          "text": "Obras de irrigação"
+        },
+        {
+          "code": "42.99-5-99",
+          "text": "Outras obras de engenharia civil não especificadas anteriormente"
+        },
+        {
+          "code": "43.13-4-00",
+          "text": "Obras de terraplenagem"
+        },
+        {
+          "code": "49.24-8-00",
+          "text": "Transporte escolar"
+        },
+        {
+          "code": "49.29-9-01",
+          "text": "Transporte rodoviário coletivo de passageiros, sob regime de fretamento, municipal"
+        },
+        {
+          "code": "71.12-0-00",
+          "text": "Serviços de engenharia (Dispensada *)"
+        },
+        {
+          "code": "77.11-0-00",
+          "text": "Locação de automóveis sem condutor"
+        },
+        {
+          "code": "77.31-4-00",
+          "text": "Aluguel de máquinas e equipamentos agrícolas sem operador"
+        },
+        {
+          "code": "77.32-2-01",
+          "text": "Aluguel de máquinas e equipamentos para construção sem operador, exceto andaimes"
+        },
+        {
+          "code": "77.39-0-01",
+          "text": "Aluguel de máquinas e equipamentos para extração de minérios e petróleo, sem operador"
+        },
+        {
+          "code": "79.11-2-00",
+          "text": "Agências de viagens (Dispensada *)"
+        }
+      ],
+      "qsa": [
+        {
+          "nome": "FERNANDO DE LIMA VILA NOVA",
+          "qual": "49-Sócio-Administrador"
+        }
+      ],
+      "logradouro": "R GUIMARAES ROSA",
+      "numero": "1000",
+      "complemento": "SALA A",
+      "municipio": "SETE LAGOAS",
+      "bairro": "BOM JARDIM",
+      "uf": "MG",
+      "cep": "35.701-035",
+      "email": "nando_vilanova@yahoo.com.br",
+      "telefone": "(31) 3773-7062",
+      "data_situacao": "30/03/2015",
+      "cnpj": "22.157.088/0001-92",
+      "ultima_atualizacao": "2025-11-04T13:49:33.097Z",
+      "status": "OK",
+      "efr": "",
+      "motivo_situacao": "",
+      "situacao_especial": "",
+      "data_situacao_especial": "",
+      "capital_social": "150000.00",
+      "simples": {
+        "optante": true,
+        "data_opcao": "30/03/2015",
+        "data_exclusao": null,
+        "ultima_atualizacao": "2025-10-12T23:59:59.000Z"
+      },
+      "simei": {
+        "optante": false,
+        "data_opcao": "30/03/2015",
+        "data_exclusao": "31/01/2020",
+        "ultima_atualizacao": "2025-10-12T23:59:59.000Z"
+      },
+      "extra": {},
+      "billing": {
+        "free": true,
+        "database": true
+      }
+    },
+    "serpro_disponivel": false,
+    "arquivos_evidencia": {
+      "entrada": "outbox\\job_bmf_turismo_001\\serpro\\job_bmf_turismo_001_entrada_receitaws_20251106_085320.json",
+      "saida": "outbox\\job_bmf_turismo_001\\serpro\\job_bmf_turismo_001_saida_receitaws_20251106_085320.json"
+    },
+    "data_execucao": "2025-11-06T08:53:21.522489"
+  },
+  "ia2_result": {
+    "status": "OK",
+    "job_id": "job_bmf_turismo_001",
+    "modo": "comparativo",
+    "resultado": {
+      "resposta_livre": "### Resumo executivo\n- **Status Global**: IMPEDITIVO\n- **Motivos-chave**:\n  - Falta informação sobre o administrador/representante na QSA.\n  - Falta prova de assinatura ou registro na Junta/Cartório.\n  - Falta CPF do representante legal.\n  - Falta procuração válida se o operador não for o representante legal.\n- **Próximas ações**:\n  - Enviar documento que comprove o administrador/representante na QSA.\n  - Enviar prova de assinatura ou registro na Junta/Cartório.\n  - Enviar CPF do representante legal.\n  - Enviar procuração válida se o operador não for o representante legal.\n\n### Checklist\n| Item                     | Critério                                   | Status     | Evidências                                                   | Ação sugerida                                               |\n|--------------------------|--------------------------------------------|------------|-------------------------------------------------------------|------------------------------------------------------------|\n| Contrato                 | Outro                                      | IMPEDITIVO |                                                             | Enviar documento que comprove o administrador/representante na QSA. |\n| CPF do representante      | Obrigatório                                | IMPEDITIVO |                                                             | Enviar CPF do representante legal.                          |\n| Procuração               | Válida se operador ≠ representante legal   | IMPEDITIVO |                                                             | Enviar procuração válida se o operador não for o representante legal. |\n| Cartão CNPJ              | Comprovante de Inscrição e Situação Cadastral | APROVADO   | cartao_cnpj.pdf p.1 \"NOME EMPRESARIAL\\n\\nBMF TURISMO LTDA\" |                                                            |\n| Enquadramento            | Não crítico                                | INSUFICIENTE|                                                             | Enviar informação sobre o enquadramento.                   |\n\n### JSON técnico\n```json\n{\n  \"empresa\": \"BMF TURISMO LTDA\",\n  \"tentativa\": 1,\n  \"documentos_recebidos\": [\n    \"cartao_cnpj.pdf\"\n  ],\n  \"checklist\": {\n    \"contrato\": {\n      \"tipo\": \"Outro\",\n      \"criticos\": {\n        \"nome_empresarial\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"NOME EMPRESARIAL\\n\\nBMF TURISMO LTDA\"\n            }\n          ]\n        },\n        \"municipio\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"MUNICÍPIO\\n\\nSETE LAGOAS\"\n            }\n          ]\n        },\n        \"uf\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"UF MG\"\n            }\n          ]\n        },\n        \"qsa_administrador\": {\n          \"status\": \"INSUFICIENTE\",\n          \"evidencias\": [],\n          \"observacao\": \"Falta informação sobre o administrador/representante na QSA.\"\n        },\n        \"assinatura_junta_ou_juridica\": {\n          \"status\": \"INSUFICIENTE\",\n          \"evidencias\": [],\n          \"observacao\": \"Falta prova de assinatura ou registro na Junta/Cartório.\"\n        }\n      },\n      \"nao_criticos\": {\n        \"endereco\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"LOGRADOURO\\n\\nR GUIMARAES ROSA\\n\\nNÚMERO\\n\\n1000\"\n            }\n          ]\n        },\n        \"cep\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"CEP\\n\\n35.701-035\"\n            }\n          ]\n        },\n        \"enquadramento\": {\n          \"status\": \"INSUFICIENTE\",\n          \"evidencias\": [],\n          \"observacao\": \"Falta informação sobre o enquadramento.\"\n        }\n      }\n    },\n    \"cpf_representante\": {\n      \"status\": \"INSUFICIENTE\",\n      \"evidencias\": [],\n      \"observacao\": \"Falta CPF do representante legal.\"\n    },\n    \"procuracao\": {\n      \"status\": \"INSUFICIENTE\",\n      \"outorgante\": \"\",\n      \"outorgado\": \"\",\n      \"validade\": \"\",\n      \"evidencias\": [],\n      \"observacao\": \"Falta procuração válida se o operador não for o representante legal.\"\n    },\n    \"cartao_cnpj\": {\n      \"status\": \"APROVADO\"\n    }\n  },\n  \"regras_disparadas\": [],\n  \"reincidencia\": {\n    \"houve\": false,\n    \"politica\": \"ressalva_2a_tentativa_vira_impeditivo\"\n  },\n  \"decisao_final\": {\n    \"status_global\": \"IMPEDITIVO\",\n    \"justificativa\": \"Faltam informações críticas sobre o administrador e a assinatura na Junta/Cartório.\",\n    \"acoes_recomendadas\": [\n      \"Enviar documento que comprove o administrador/representante na QSA.\",\n      \"Enviar prova de assinatura ou registro na Junta/Cartório.\",\n      \"Enviar CPF do representante legal.\",\n      \"Enviar procuração válida se o operador não for o representante legal.\"\n    ]\n  }\n}\n``` \n\n### Histórico Fornecedor\n```\n[LIBERAÇÃO IMPEDITIVO] – Motivos: Falta informações críticas sobre o administrador e a assinatura na Junta/Cartório. Próximas ações: Enviar documento que comprove o administrador/representante na QSA, enviar prova de assinatura ou registro na Junta/Cartório, enviar CPF do representante legal, enviar procuração válida se o operador não for o representante legal. Evidências: cartao_cnpj.pdf p.1 \"NOME EMPRESARIAL\\n\\nBMF TURISMO LTDA\".\n```\n\n### Email sugerido\nAssunto: Liberação não aprovada – documentação obrigatória ausente  \nCorpo:  \n```\nPrezados,\nA validação não pôde ser concluída devido a impeditivo(s):\n• Falta informação sobre o administrador/representante na QSA.\n• Falta prova de assinatura ou registro na Junta/Cartório.\n• Falta CPF do representante legal.\n• Falta procuração válida se o operador não for o representante legal.\nEncaminhem os documentos listados para prosseguirmos.\nAtenciosamente,\n<assinatura>\n```"
+    },
+    "resposta_bruta": "### Resumo executivo\n- **Status Global**: IMPEDITIVO\n- **Motivos-chave**:\n  - Falta informação sobre o administrador/representante na QSA.\n  - Falta prova de assinatura ou registro na Junta/Cartório.\n  - Falta CPF do representante legal.\n  - Falta procuração válida se o operador não for o representante legal.\n- **Próximas ações**:\n  - Enviar documento que comprove o administrador/representante na QSA.\n  - Enviar prova de assinatura ou registro na Junta/Cartório.\n  - Enviar CPF do representante legal.\n  - Enviar procuração válida se o operador não for o representante legal.\n\n### Checklist\n| Item                     | Critério                                   | Status     | Evidências                                                   | Ação sugerida                                               |\n|--------------------------|--------------------------------------------|------------|-------------------------------------------------------------|------------------------------------------------------------|\n| Contrato                 | Outro                                      | IMPEDITIVO |                                                             | Enviar documento que comprove o administrador/representante na QSA. |\n| CPF do representante      | Obrigatório                                | IMPEDITIVO |                                                             | Enviar CPF do representante legal.                          |\n| Procuração               | Válida se operador ≠ representante legal   | IMPEDITIVO |                                                             | Enviar procuração válida se o operador não for o representante legal. |\n| Cartão CNPJ              | Comprovante de Inscrição e Situação Cadastral | APROVADO   | cartao_cnpj.pdf p.1 \"NOME EMPRESARIAL\\n\\nBMF TURISMO LTDA\" |                                                            |\n| Enquadramento            | Não crítico                                | INSUFICIENTE|                                                             | Enviar informação sobre o enquadramento.                   |\n\n### JSON técnico\n```json\n{\n  \"empresa\": \"BMF TURISMO LTDA\",\n  \"tentativa\": 1,\n  \"documentos_recebidos\": [\n    \"cartao_cnpj.pdf\"\n  ],\n  \"checklist\": {\n    \"contrato\": {\n      \"tipo\": \"Outro\",\n      \"criticos\": {\n        \"nome_empresarial\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"NOME EMPRESARIAL\\n\\nBMF TURISMO LTDA\"\n            }\n          ]\n        },\n        \"municipio\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"MUNICÍPIO\\n\\nSETE LAGOAS\"\n            }\n          ]\n        },\n        \"uf\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"UF MG\"\n            }\n          ]\n        },\n        \"qsa_administrador\": {\n          \"status\": \"INSUFICIENTE\",\n          \"evidencias\": [],\n          \"observacao\": \"Falta informação sobre o administrador/representante na QSA.\"\n        },\n        \"assinatura_junta_ou_juridica\": {\n          \"status\": \"INSUFICIENTE\",\n          \"evidencias\": [],\n          \"observacao\": \"Falta prova de assinatura ou registro na Junta/Cartório.\"\n        }\n      },\n      \"nao_criticos\": {\n        \"endereco\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"LOGRADOURO\\n\\nR GUIMARAES ROSA\\n\\nNÚMERO\\n\\n1000\"\n            }\n          ]\n        },\n        \"cep\": {\n          \"status\": \"APROVADO\",\n          \"evidencias\": [\n            {\n              \"arquivo\": \"cartao_cnpj.pdf\",\n              \"pag\": 1,\n              \"trecho\": \"CEP\\n\\n35.701-035\"\n            }\n          ]\n        },\n        \"enquadramento\": {\n          \"status\": \"INSUFICIENTE\",\n          \"evidencias\": [],\n          \"observacao\": \"Falta informação sobre o enquadramento.\"\n        }\n      }\n    },\n    \"cpf_representante\": {\n      \"status\": \"INSUFICIENTE\",\n      \"evidencias\": [],\n      \"observacao\": \"Falta CPF do representante legal.\"\n    },\n    \"procuracao\": {\n      \"status\": \"INSUFICIENTE\",\n      \"outorgante\": \"\",\n      \"outorgado\": \"\",\n      \"validade\": \"\",\n      \"evidencias\": [],\n      \"observacao\": \"Falta procuração válida se o operador não for o representante legal.\"\n    },\n    \"cartao_cnpj\": {\n      \"status\": \"APROVADO\"\n    }\n  },\n  \"regras_disparadas\": [],\n  \"reincidencia\": {\n    \"houve\": false,\n    \"politica\": \"ressalva_2a_tentativa_vira_impeditivo\"\n  },\n  \"decisao_final\": {\n    \"status_global\": \"IMPEDITIVO\",\n    \"justificativa\": \"Faltam informações críticas sobre o administrador e a assinatura na Junta/Cartório.\",\n    \"acoes_recomendadas\": [\n      \"Enviar documento que comprove o administrador/representante na QSA.\",\n      \"Enviar prova de assinatura ou registro na Junta/Cartório.\",\n      \"Enviar CPF do representante legal.\",\n      \"Enviar procuração válida se o operador não for o representante legal.\"\n    ]\n  }\n}\n``` \n\n### Histórico Fornecedor\n```\n[LIBERAÇÃO IMPEDITIVO] – Motivos: Falta informações críticas sobre o administrador e a assinatura na Junta/Cartório. Próximas ações: Enviar documento que comprove o administrador/representante na QSA, enviar prova de assinatura ou registro na Junta/Cartório, enviar CPF do representante legal, enviar procuração válida se o operador não for o representante legal. Evidências: cartao_cnpj.pdf p.1 \"NOME EMPRESARIAL\\n\\nBMF TURISMO LTDA\".\n```\n\n### Email sugerido\nAssunto: Liberação não aprovada – documentação obrigatória ausente  \nCorpo:  \n```\nPrezados,\nA validação não pôde ser concluída devido a impeditivo(s):\n• Falta informação sobre o administrador/representante na QSA.\n• Falta prova de assinatura ou registro na Junta/Cartório.\n• Falta CPF do representante legal.\n• Falta procuração válida se o operador não for o representante legal.\nEncaminhem os documentos listados para prosseguirmos.\nAtenciosamente,\n<assinatura>\n```",
+    "data_execucao": "2025-11-06T08:53:51.361576",
+    "arquivos_evidencia": {
+      "entrada": "outbox\\job_bmf_turismo_001\\ia\\job_bmf_turismo_001_entrada_comparativo_20251106_085351.json",
+      "saida": "outbox\\job_bmf_turismo_001\\ia\\job_bmf_turismo_001_saida_comparativo_20251106_085351.json"
+    }
+  },
+  "arquivos_gerados": {
+    "resumo_executivo": "outbox\\job_bmf_turismo_001\\resultado\\resumo_executivo.md",
+    "checklist_validacao": "outbox\\job_bmf_turismo_001\\resultado\\checklist_validacao.md",
+    "historico": "outbox\\job_bmf_turismo_001\\resultado\\historico.txt",
+    "email_sugerido": "outbox\\job_bmf_turismo_001\\resultado\\email_sugerido.md"
+  },
+  "data_geracao": "2025-11-06T08:53:51.367163"
+}

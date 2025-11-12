@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Manifesto de Job - Licitanet + OCR + OpenAI (v3)",
+  "description": "Schema de validação do manifest.json utilizado pelo pipeline de verificação documental automatizada.",
+  "type": "object",
+  "required": ["job_id", "fornecedor_id", "arquivos", "perfil_validacao"],
+  "additionalProperties": false,
+  "properties": {
+    "job_id": {
+      "type": "string",
+      "minLength": 8,
+      "description": "Identificador único do job atribuído pela Licitanet."
+    },
+    "fornecedor_id": {
+      "type": "string",
+      "description": "Identificador interno do fornecedor na plataforma Licitanet."
+    },
+    "perfil_validacao": {
+      "type": "string",
+      "enum": ["PF", "PJ"],
+      "description": "Perfil de validação: PF (Pessoa Física) ou PJ (Pessoa Jurídica)."
+    },
+    "subperfil_pf": {
+      "type": ["string", "null"],
+      "enum": ["PF_Pura", "PF_EI", null],
+      "default": null,
+      "description": "Subperfil específico para validações PF (PF_Pura ou PF_EI)."
+    },
+    "contexto": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "Contexto adicional do job, como origem, usuário, ou parâmetros complementares."
+    },
+    "reprocessar": {
+      "type": "boolean",
+      "default": false,
+      "description": "Indica se o job deve ser reprocessado, ignorando cache e ledger."
+    },
+    "reprocess_scope": {
+      "type": "string",
+      "enum": ["PDF", "OPENAI", "FULL", "AUTO_MANIFEST"],
+      "default": "AUTO_MANIFEST",
+      "description": "Escopo de reprocessamento: PDF (reextrai), OPENAI (reenvia IA), FULL (ambos), AUTO_MANIFEST (apenas se manifest mudou)."
+    },
+    "arquivos": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Lista de arquivos que compõem o job de validação.",
+      "items": {
+        "type": "object",
+        "required": ["id", "nome", "paginas", "hash"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Identificador interno do arquivo dentro do job."
+          },
+          "nome": {
+            "type": "string",
+            "description": "Nome do arquivo (ex: contrato.pdf)."
+          },
+          "tipo_previsto": {
+            "type": "string",
+            "description": "Tipo de documento esperado (ex: CONTRATO_SOCIAL, CARTAO_CNPJ)."
+          },
+          "origem": {
+            "type": "string",
+            "description": "Origem do documento (upload manual, API, etc.)."
+          },
+          "paginas": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Número de páginas do documento."
+          },
+          "hash": {
+            "type": "string",
+            "description": "Hash SHA256 do arquivo original (para idempotência)."
+          },
+          "legibilidade_score": {
+            "type": ["number", "null"],
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Pontuação de legibilidade calculada na extração (0 a 1)."
+          },
+          "opcional": {
+            "type": "boolean",
+            "default": false,
+            "description": "Indica se o documento é opcional para a validação."
+          }
+        }
+      }
+    },
+    "metadados": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "Metadados livres (ex: ambiente, versão, operador)."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "fonte": "RECEITAWS",
+  "cnpj": "22157088000192",
+  "url": "https://www.receitaws.com.br/v1/cnpj/22157088000192?token=# se você tiver um token/plano, coloque aqui",
+  "timeout": 20.0,
+  "retries": 3,
+  "backoff": 1.5,
+  "tem_token": true
+}
