@@ -1,5 +1,14 @@
-# Arquivos com segredos
+# Segredos e tokens
 .env
 Token Git.txt
-.env
-Token Git.txt
+
+# Ambientes e cache
+__pycache__/
+.venv/
+logs/
+inbox/
+processing/
+outbox/
+done/
+error/
+evidencias/
