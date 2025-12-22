@@ -1,0 +1,97 @@
+🧰 Checklist — Publicação Segura no GitHub + Docker
+
+Projeto: Licitanet + OCR + OpenAI
+Autor: @walterrosa2
+
+🧩 1️⃣ Preparar o repositório local
+# Iniciar novo repositório Git
+git init
+git branch -M main
+
+# Conectar ao repositório remoto
+git remote add origin https://github.com/walterrosa2/licitanet_valida.git
+
+⚙️ 2️⃣ Garantir que segredos não sejam enviados
+
+Sempre mantenha suas chaves e tokens fora do histórico do Git.
+
+# Criar (ou editar) o .gitignore
+echo .env>>.gitignore
+echo Token Git.txt>>.gitignore
+echo __pycache__/>>.gitignore
+echo .venv/>>.gitignore
+echo logs/>>.gitignore
+echo inbox/>>.gitignore
+echo processing/>>.gitignore
+echo outbox/>>.gitignore
+echo done/>>.gitignore
+echo error/>>.gitignore
+echo evidencias/>>.gitignore
+
+
+Verifique:
+
+git status
+
+
+Os arquivos .env e Token Git.txt devem aparecer como “ignored”.
+
+🧹 3️⃣ Caso segredos já tenham sido comitados
+
+Use este comando para apagar definitivamente segredos do histórico.
+
+pip install git-filter-repo
+git filter-repo --path .env --path "Token Git.txt" --invert-paths
+
+
+Se preferir resetar tudo e começar limpo:
+
+rmdir /s /q .git
+git init
+git branch -M main
+git remote add origin https://github.com/walterrosa2/licitanet_valida.git
+
+🚀 4️⃣ Criar commit e enviar ao GitHub
+git add .
+git commit -m "Versão limpa — histórico reiniciado sem segredos"
+git push -u origin main --force
+
+
+Verifique no navegador:
+👉 https://github.com/walterrosa2/licitanet_valida
+
+🧱 5️⃣ Publicar imagem Docker (GitHub Container Registry)
+docker build -t ghcr.io/walterrosa2/licitanet_valida:1.0.0 .
+docker login ghcr.io -u walterrosa2
+docker push ghcr.io/walterrosa2/licitanet_valida:1.0.0
+
+
+Depois acesse:
+👉 https://github.com/users/walterrosa2/packages/container/licitanet_valida
+
+🧭 6️⃣ Testar imagem publicada
+docker pull ghcr.io/walterrosa2/licitanet_valida:1.0.0
+docker run -p 8501:8501 ghcr.io/walterrosa2/licitanet_valida:1.0.0
+
+
+Isso executa a aplicação diretamente no container, sem precisar de ambiente Python local.
+
+🛡️ 7️⃣ Boas práticas de segurança contínua
+
+🔒 Nunca suba .env ou arquivos com tokens para o GitHub.
+
+🔑 Gere novas chaves da OpenAI e GitHub a cada projeto.
+
+🧾 Use tags de versão claras (:1.0.0, :1.1.0, :latest).
+
+🧰 Automatize builds futuros com GitHub Actions (CI/CD).
+
+🧩 Mantenha a visibilidade da imagem pública apenas se não houver dados sensíveis.
+
+✅ Resultado esperado
+Item	Status
+Código no GitHub	✅
+Histórico limpo	✅
+.env e Token ignorados	✅
+Imagem Docker publicada	✅
+Push Protection ok	✅

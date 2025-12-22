@@ -65,7 +65,7 @@ if MODULES_PATH not in sys.path:
 # Importa módulos principais
 from watcher import detect_and_move_jobs
 from manifest_loader import load_manifest
-from extrator_docling import executar_ocr
+from ocr_router import executar_ocr
 from doc_verifier_agent import validar_documentos_openai
 from consulta_serpro import consultar_cnpj
 from relatorio import gerar_relatorio_final

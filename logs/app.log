@@ -3410,3 +3410,656 @@ Traceback (most recent call last):
 
 RuntimeError: Arquivos listados no manifest não encontrados: ['ii_alteracao_contratual_bmf_turismo.pdf', 'fernando_de_lima_vila_nova.pdf']
 2025-11-12 17:24:20.092 | INFO     | log_service:registrar_evento:164 - [WATCHER] Pipeline falhou: Arquivos listados no manifest não encontrados: ['ii_alteracao_contratual_bmf_turismo.pdf', 'fernando_de_lima_vila_nova.pdf']
+2025-11-12 19:57:15.057 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-12 19:57:15.067 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-12 19:57:15.075 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-12 19:57:15.076 | INFO     | consulta_serpro:<module>:20 - ReceitaWS MODE ATIVO — consulta_serpro.py (build 2025-11-05) | file=%s
+2025-11-12 19:57:15.089 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-12 19:57:15.089 | INFO     | watcher:<module>:20 - watcher.py carregado de: C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py
+2025-11-12 19:57:15.094 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-12 19:57:15.100 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-12 19:57:15.101 | INFO     | __main__:main:143 - Estrutura de diretórios verificada:
+2025-11-12 19:57:15.103 | INFO     | __main__:main:154 - Modo PRODUÇÃO - monitoramento contínuo iniciado.
+2025-11-12 19:57:15.104 | INFO     | watcher:detect_and_move_jobs:171 - Iniciando monitoramento do diretório /inbox …
+2025-11-13 06:50:12.533 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-13 06:50:12.542 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-13 06:50:12.552 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-13 06:50:12.553 | INFO     | consulta_serpro:<module>:20 - ReceitaWS MODE ATIVO — consulta_serpro.py (build 2025-11-05) | file=%s
+2025-11-13 06:50:12.562 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-13 06:50:12.563 | INFO     | watcher:<module>:20 - watcher.py carregado de: C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py
+2025-11-13 06:50:12.569 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-13 06:50:12.576 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-13 06:50:12.576 | INFO     | __main__:main:143 - Estrutura de diretórios verificada:
+2025-11-13 06:50:12.581 | INFO     | __main__:main:154 - Modo PRODUÇÃO - monitoramento contínuo iniciado.
+2025-11-13 06:50:12.582 | INFO     | watcher:detect_and_move_jobs:171 - Iniciando monitoramento do diretório /inbox …
+2025-11-13 06:58:47.848 | INFO     | watcher:detect_and_move_jobs:175 - 1 job(s) detectado(s) em /inbox.
+2025-11-13 06:58:47.874 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_006] WATCHER
+2025-11-13 06:58:47.890 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_006] WATCHER
+2025-11-13 06:58:47.896 | INFO     | manifest_loader:load_manifest:218 - [MANIFEST] Tentando carregar: processing\job_bmf_turismo_006\manifest.json (exists=True)
+2025-11-13 06:58:47.912 | INFO     | manifest_loader:_load_external_schema_if_exists:82 - Schema externo encontrado em schemas/manifest_v3.json
+2025-11-13 06:58:47.960 | INFO     | manifest_loader:load_manifest:256 - Manifest carregado e normalizado para job_dir='processing/job_bmf_turismo_006' → 'manifest.normalizado.json'
+2025-11-13 06:58:47.963 | WARNING  | watcher:process_job:121 - [job_bmf_turismo_006] job_id no manifest difere do nome da pasta. Prosseguindo assim mesmo.
+2025-11-13 06:58:47.964 | INFO     | watcher:process_job:124 - [job_bmf_turismo_006] Iniciando OCR/Docling…
+2025-11-13 06:58:47.968 | INFO     | extrator_docling:executar_ocr:59 - Iniciando extração de cartao_cnpj.pdf
+2025-11-13 06:59:03.028 | INFO     | extrator_docling:executar_ocr:85 - Extração concluída: cartao_cnpj.pdf via Docling
+2025-11-13 06:59:03.031 | INFO     | extrator_docling:executar_ocr:59 - Iniciando extração de ii_alteracao_contratual_bmf_turismo.pdf
+2025-11-14 12:06:59.849 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-14 12:06:59.860 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-14 12:06:59.869 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-14 12:06:59.870 | INFO     | consulta_serpro:<module>:20 - ReceitaWS MODE ATIVO — consulta_serpro.py (build 2025-11-05) | file=%s
+2025-11-14 12:06:59.877 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-14 12:06:59.878 | INFO     | watcher:<module>:20 - watcher.py carregado de: C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py
+2025-11-14 12:06:59.881 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-14 12:06:59.887 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-14 12:06:59.888 | INFO     | __main__:main:143 - Estrutura de diretórios verificada:
+2025-11-14 12:06:59.891 | INFO     | __main__:main:154 - Modo PRODUÇÃO - monitoramento contínuo iniciado.
+2025-11-14 12:06:59.891 | INFO     | watcher:detect_and_move_jobs:171 - Iniciando monitoramento do diretório /inbox …
+2025-11-14 12:07:49.925 | INFO     | watcher:detect_and_move_jobs:175 - 1 job(s) detectado(s) em /inbox.
+2025-11-14 12:07:49.925 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_003] WATCHER
+2025-11-14 12:07:49.930 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_003] WATCHER
+2025-11-14 12:07:49.933 | INFO     | manifest_loader:load_manifest:218 - [MANIFEST] Tentando carregar: processing\job_bmf_turismo_003\manifest.json (exists=True)
+2025-11-14 12:07:49.936 | INFO     | manifest_loader:_load_external_schema_if_exists:82 - Schema externo encontrado em schemas/manifest_v3.json
+2025-11-14 12:07:49.940 | INFO     | manifest_loader:load_manifest:256 - Manifest carregado e normalizado para job_dir='processing/job_bmf_turismo_003' → 'manifest.normalizado.json'
+2025-11-14 12:07:49.943 | WARNING  | watcher:process_job:121 - [job_bmf_turismo_003] job_id no manifest difere do nome da pasta. Prosseguindo assim mesmo.
+2025-11-14 12:07:49.943 | INFO     | watcher:process_job:124 - [job_bmf_turismo_003] Iniciando OCR/Docling…
+2025-11-14 12:07:49.945 | INFO     | extrator_docling:executar_ocr:59 - Iniciando extração de cartao_cnpj.pdf
+2025-11-14 12:08:04.685 | INFO     | extrator_docling:executar_ocr:85 - Extração concluída: cartao_cnpj.pdf via Docling
+2025-11-14 12:08:04.686 | INFO     | extrator_docling:executar_ocr:59 - Iniciando extração de ii_alteracao_contratual_bmf_turismo.pdf
+2025-11-14 13:49:03.441 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-14 13:49:03.449 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-14 13:49:03.456 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-14 13:49:03.456 | INFO     | consulta_serpro:<module>:20 - ReceitaWS MODE ATIVO — consulta_serpro.py (build 2025-11-05) | file=%s
+2025-11-14 13:49:03.465 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-14 13:49:03.466 | INFO     | watcher:<module>:20 - watcher.py carregado de: C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py
+2025-11-14 13:49:03.469 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-14 13:49:03.474 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-14 13:49:03.476 | INFO     | __main__:main:143 - Estrutura de diretórios verificada:
+2025-11-14 13:49:03.480 | INFO     | __main__:main:154 - Modo PRODUÇÃO - monitoramento contínuo iniciado.
+2025-11-14 13:49:03.481 | INFO     | watcher:detect_and_move_jobs:171 - Iniciando monitoramento do diretório /inbox …
+2025-11-14 14:09:09.267 | INFO     | watcher:detect_and_move_jobs:175 - 1 job(s) detectado(s) em /inbox.
+2025-11-14 14:09:09.270 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_003] WATCHER
+2025-11-23 08:11:02.412 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-23 08:11:02.418 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-23 08:11:02.423 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-23 08:11:02.424 | INFO     | consulta_serpro:<module>:20 - ReceitaWS MODE ATIVO — consulta_serpro.py (build 2025-11-05) | file=%s
+2025-11-23 08:11:02.429 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-23 08:11:02.430 | INFO     | watcher:<module>:20 - watcher.py carregado de: C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py
+2025-11-23 08:11:02.433 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-23 08:11:02.438 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-23 08:11:02.439 | INFO     | __main__:main:143 - Estrutura de diretórios verificada:
+2025-11-23 08:11:02.441 | INFO     | __main__:main:154 - Modo PRODUÇÃO - monitoramento contínuo iniciado.
+2025-11-23 08:11:02.441 | INFO     | watcher:detect_and_move_jobs:171 - Iniciando monitoramento do diretório /inbox …
+2025-11-23 08:11:02.444 | INFO     | watcher:detect_and_move_jobs:175 - 1 job(s) detectado(s) em /inbox.
+2025-11-23 08:11:02.445 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_003] WATCHER
+2025-11-23 08:11:28.944 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-23 08:11:28.945 | INFO     | __main__:main:143 - Estrutura de diretórios verificada:
+2025-11-23 08:11:28.946 | INFO     | __main__:main:154 - Modo PRODUÇÃO - monitoramento contínuo iniciado.
+2025-11-23 08:11:28.946 | INFO     | watcher:detect_and_move_jobs:171 - Iniciando monitoramento do diretório /inbox …
+2025-11-23 08:11:28.948 | INFO     | watcher:detect_and_move_jobs:175 - 1 job(s) detectado(s) em /inbox.
+2025-11-23 08:11:28.949 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_003] WATCHER
+2025-11-23 08:11:47.005 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-23 08:11:47.007 | INFO     | __main__:main:143 - Estrutura de diretórios verificada:
+2025-11-23 08:11:47.010 | INFO     | __main__:main:154 - Modo PRODUÇÃO - monitoramento contínuo iniciado.
+2025-11-23 08:11:47.011 | INFO     | watcher:detect_and_move_jobs:171 - Iniciando monitoramento do diretório /inbox …
+2025-11-23 08:11:47.014 | INFO     | watcher:detect_and_move_jobs:175 - 1 job(s) detectado(s) em /inbox.
+2025-11-23 08:11:47.014 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_003] WATCHER
+2025-11-23 08:11:57.060 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-11-23 08:11:57.060 | INFO     | __main__:main:143 - Estrutura de diretórios verificada:
+2025-11-23 08:11:57.061 | INFO     | __main__:main:154 - Modo PRODUÇÃO - monitoramento contínuo iniciado.
+2025-11-23 08:11:57.062 | INFO     | watcher:detect_and_move_jobs:171 - Iniciando monitoramento do diretório /inbox …
+2025-11-23 08:11:57.066 | INFO     | watcher:detect_and_move_jobs:175 - 1 job(s) detectado(s) em /inbox.
+2025-11-23 08:11:57.066 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_003] WATCHER
+2025-12-03 11:34:06.780 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 11:34:06.788 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 11:34:06.792 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 11:34:06.792 | INFO     | consulta_serpro:<module>:20 - ReceitaWS MODE ATIVO — consulta_serpro.py (build 2025-11-05) | file=%s
+2025-12-03 11:34:06.798 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 11:34:06.798 | INFO     | watcher:<module>:20 - watcher.py carregado de: C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py
+2025-12-03 11:34:06.801 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 11:34:06.805 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 11:34:06.806 | INFO     | __main__:main:143 - Estrutura de diretórios verificada:
+2025-12-03 11:34:06.809 | INFO     | __main__:main:154 - Modo PRODUÇÃO - monitoramento contínuo iniciado.
+2025-12-03 11:34:06.810 | INFO     | watcher:detect_and_move_jobs:171 - Iniciando monitoramento do diretório /inbox …
+2025-12-03 11:34:06.821 | INFO     | watcher:detect_and_move_jobs:175 - 1 job(s) detectado(s) em /inbox.
+2025-12-03 11:34:06.823 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_998] WATCHER
+2025-12-03 11:34:06.833 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_998] WATCHER
+2025-12-03 11:34:06.835 | INFO     | manifest_loader:load_manifest:218 - [MANIFEST] Tentando carregar: processing\job_bmf_turismo_998\manifest.json (exists=True)
+2025-12-03 11:34:06.838 | INFO     | manifest_loader:_load_external_schema_if_exists:82 - Schema externo encontrado em schemas/manifest_v3.json
+2025-12-03 11:34:06.842 | INFO     | manifest_loader:load_manifest:256 - Manifest carregado e normalizado para job_dir='processing/job_bmf_turismo_998' → 'manifest.normalizado.json'
+2025-12-03 11:34:06.843 | WARNING  | watcher:process_job:121 - [job_bmf_turismo_998] job_id no manifest difere do nome da pasta. Prosseguindo assim mesmo.
+2025-12-03 11:34:06.844 | INFO     | watcher:process_job:124 - [job_bmf_turismo_998] Iniciando OCR/Docling…
+2025-12-03 11:34:06.846 | INFO     | extrator_docling:executar_ocr:59 - Iniciando extração de cartao_cnpj.pdf
+2025-12-03 11:35:21.938 | INFO     | extrator_docling:executar_ocr:85 - Extração concluída: cartao_cnpj.pdf via Docling
+2025-12-03 11:35:21.940 | INFO     | extrator_docling:executar_ocr:59 - Iniciando extração de ii_alteracao_contratual_bmf_turismo.pdf
+2025-12-03 11:38:34.895 | INFO     | extrator_docling:executar_ocr:85 - Extração concluída: ii_alteracao_contratual_bmf_turismo.pdf via Docling
+2025-12-03 11:38:34.898 | INFO     | extrator_docling:executar_ocr:59 - Iniciando extração de fernando_de_lima_vila_nova.pdf
+2025-12-03 11:39:12.287 | INFO     | extrator_docling:executar_ocr:85 - Extração concluída: fernando_de_lima_vila_nova.pdf via Docling
+2025-12-03 11:39:12.288 | INFO     | watcher:process_job:126 - [job_bmf_turismo_998] OCR/Docling concluído: OK
+2025-12-03 11:39:12.288 | INFO     | watcher:process_job:129 - [job_bmf_turismo_998] Iniciando IA Validador 1…
+2025-12-03 11:39:12.291 | INFO     | doc_verifier_agent:validar_documentos_openai:64 - Enviando análise para OpenAI (PJ)...
+2025-12-03 11:39:49.445 | INFO     | doc_verifier_agent:validar_documentos_openai:97 - Validação IA concluída para job_bmf_turismo_998 (padrao)
+2025-12-03 11:39:49.446 | INFO     | watcher:process_job:131 - [job_bmf_turismo_998] IA1 concluída: OK
+2025-12-03 11:39:49.447 | INFO     | watcher:process_job:134 - [job_bmf_turismo_998] Consultando dados ReceitaWS…
+2025-12-03 11:39:49.449 | INFO     | watcher:_stage_manifest_for_serpro:92 - [job_bmf_turismo_998] Manifest staged para ReceitaWS: outbox/job_bmf_turismo_998/serpro/manifest_for_serpro.json
+2025-12-03 11:39:50.914 | INFO     | watcher:process_job:140 - [job_bmf_turismo_998] ReceitaWS concluída: OK
+2025-12-03 11:39:50.915 | INFO     | watcher:process_job:143 - [job_bmf_turismo_998] Iniciando IA Validador 2 (comparativa)…
+2025-12-03 11:39:50.919 | INFO     | doc_verifier_agent:validar_documentos_openai:64 - Enviando análise para OpenAI (PJ)...
+2025-12-03 11:40:28.070 | INFO     | doc_verifier_agent:validar_documentos_openai:97 - Validação IA concluída para job_bmf_turismo_998 (comparativo)
+2025-12-03 11:40:28.071 | INFO     | watcher:process_job:150 - [job_bmf_turismo_998] IA2 concluída: OK
+2025-12-03 11:40:28.072 | INFO     | watcher:process_job:153 - [job_bmf_turismo_998] Gerando relatório final…
+2025-12-03 11:40:28.080 | INFO     | relatorio:gerar_relatorio_final:86 - Relatórios finais gerados em outbox\job_bmf_turismo_998\resultado
+2025-12-03 11:40:28.081 | INFO     | watcher:process_job:155 - [job_bmf_turismo_998] Relatório final gerado.
+2025-12-03 11:40:28.084 | ERROR    | watcher:process_job:162 - [job_bmf_turismo_998] Erro durante o processamento do job: registrar_evento() got multiple values for argument 'nivel'
+Traceback (most recent call last):
+
+  File "C:\Python313\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x0000025A41F42340>
+    └ <Thread(ScriptRunner.scriptThread, started 24104)>
+  File "C:\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x0000025A41F420C0>
+    └ <Thread(ScriptRunner.scriptThread, started 24104)>
+  File "C:\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 24104)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 24104)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='75bc0086-c14a-4882-a843-3a9129447046', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 24104)>
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 378, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x0000025A448729D0>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=, context_info=timezone: "America/...
+    │    └ <function ScriptRunner._run_script at 0x0000025A454645E0>
+    └ ScriptRunner(_session_id='75bc0086-c14a-4882-a843-3a9129447046', _main_script_path='main.py', _session_state={}, _uploaded_fi...
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 685, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='75bc0086-c14a-4882-a843-3a9129447046', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000025A45CA80E0>
+        └ <function exec_func_with_error_handling at 0x0000025A453DF740>
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x0000025A45CA80E0>
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'main.py'>
+         └ <code object <module> at 0x0000025A44E121D0, file "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OC...
+
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\main.py", line 158, in <module>
+    main()
+    └ <function main at 0x0000025A47DAEAC0>
+
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\main.py", line 155, in main
+    detect_and_move_jobs(run_once=False)
+    └ <function detect_and_move_jobs at 0x0000025A77839120>
+
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py", line 177, in detect_and_move_jobs
+    process_job(job_dir)
+    │           └ WindowsPath('inbox/job_bmf_turismo_998')
+    └ <function process_job at 0x0000025A77839080>
+
+> File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py", line 159, in process_job
+    registrar_evento(job_id, "WATCHER", "Pipeline concluído com sucesso", nivel="info")
+    │                └ 'job_bmf_turismo_998'
+    └ <function registrar_evento at 0x0000025A46D3C7C0>
+
+TypeError: registrar_evento() got multiple values for argument 'nivel'
+2025-12-03 11:40:28.091 | INFO     | log_service:registrar_evento:164 - [WATCHER] Pipeline falhou: registrar_evento() got multiple values for argument 'nivel'
+2025-12-03 13:23:31.523 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:23:31.533 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:23:31.541 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:23:31.542 | INFO     | consulta_serpro:<module>:20 - ReceitaWS MODE ATIVO — consulta_serpro.py (build 2025-11-05) | file=%s
+2025-12-03 13:23:31.550 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:23:31.551 | INFO     | watcher:<module>:20 - watcher.py carregado de: C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py
+2025-12-03 13:23:31.556 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:23:31.561 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:24:09.997 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:24:55.712 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:25:04.395 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:25:21.850 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:27:00.080 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:27:49.419 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:27:56.438 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:28:03.645 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:28:37.413 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:28:39.012 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:28:41.180 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:28:58.235 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:29:05.418 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:30:53.044 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:32:03.470 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:32:10.361 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:32:12.008 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:32:33.501 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:32:54.235 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:33:00.636 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:33:03.821 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-03 13:33:07.014 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 09:55:50.033 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 09:55:50.037 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 09:55:50.040 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 09:55:50.040 | INFO     | consulta_serpro:<module>:20 - ReceitaWS MODE ATIVO — consulta_serpro.py (build 2025-11-05) | file=%s
+2025-12-05 09:55:50.043 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 09:55:50.043 | INFO     | watcher:<module>:20 - watcher.py carregado de: C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py
+2025-12-05 09:55:50.044 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 09:55:50.047 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 09:55:50.047 | INFO     | __main__:main:143 - Estrutura de diretórios verificada:
+2025-12-05 09:55:50.048 | INFO     | __main__:main:154 - Modo PRODUÇÃO - monitoramento contínuo iniciado.
+2025-12-05 09:55:50.048 | INFO     | watcher:detect_and_move_jobs:171 - Iniciando monitoramento do diretório /inbox …
+2025-12-05 09:55:50.049 | INFO     | watcher:detect_and_move_jobs:175 - 1 job(s) detectado(s) em /inbox.
+2025-12-05 09:55:50.049 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_997] WATCHER
+2025-12-05 09:55:50.051 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_997] WATCHER
+2025-12-05 09:55:50.052 | INFO     | manifest_loader:load_manifest:218 - [MANIFEST] Tentando carregar: processing\job_bmf_turismo_997\manifest.json (exists=True)
+2025-12-05 09:55:50.054 | INFO     | manifest_loader:_load_external_schema_if_exists:82 - Schema externo encontrado em schemas/manifest_v3.json
+2025-12-05 09:55:50.057 | INFO     | manifest_loader:load_manifest:256 - Manifest carregado e normalizado para job_dir='processing/job_bmf_turismo_997' → 'manifest.normalizado.json'
+2025-12-05 09:55:50.058 | INFO     | watcher:process_job:124 - [job_bmf_turismo_997] Iniciando OCR/Docling…
+2025-12-05 09:55:50.059 | INFO     | extrator_docling:executar_ocr:59 - Iniciando extração de cartao_cnpj.pdf
+2025-12-05 09:56:00.666 | INFO     | extrator_docling:executar_ocr:85 - Extração concluída: cartao_cnpj.pdf via Docling
+2025-12-05 09:56:00.667 | INFO     | extrator_docling:executar_ocr:59 - Iniciando extração de ii_alteracao_contratual_bmf_turismo.pdf
+2025-12-05 09:57:54.775 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 09:57:54.777 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 09:57:54.779 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 09:57:54.779 | INFO     | consulta_serpro:<module>:20 - ReceitaWS MODE ATIVO — consulta_serpro.py (build 2025-11-05) | file=%s
+2025-12-05 09:57:54.781 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 09:57:54.781 | INFO     | watcher:<module>:20 - watcher.py carregado de: C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py
+2025-12-05 09:57:54.783 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 09:57:54.789 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 09:57:54.789 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 09:57:54.789 | INFO     | __main__:main:143 - Estrutura de diretórios verificada:
+2025-12-05 09:57:54.790 | INFO     | __main__:main:143 - Estrutura de diretórios verificada:
+2025-12-05 09:57:54.791 | INFO     | __main__:main:154 - Modo PRODUÇÃO - monitoramento contínuo iniciado.
+2025-12-05 09:57:54.792 | INFO     | watcher:detect_and_move_jobs:171 - Iniciando monitoramento do diretório /inbox …
+2025-12-05 09:57:54.792 | INFO     | __main__:main:154 - Modo PRODUÇÃO - monitoramento contínuo iniciado.
+2025-12-05 09:57:54.792 | INFO     | watcher:detect_and_move_jobs:171 - Iniciando monitoramento do diretório /inbox …
+2025-12-05 10:18:25.293 | INFO     | watcher:detect_and_move_jobs:175 - 1 job(s) detectado(s) em /inbox.
+2025-12-05 10:18:25.294 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_996] WATCHER
+2025-12-05 10:18:25.296 | INFO     | watcher:detect_and_move_jobs:175 - 1 job(s) detectado(s) em /inbox.
+2025-12-05 10:18:25.296 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_996] WATCHER
+2025-12-05 10:18:25.299 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_996] WATCHER
+2025-12-05 10:18:25.300 | INFO     | manifest_loader:load_manifest:218 - [MANIFEST] Tentando carregar: processing\job_bmf_turismo_996\manifest.json (exists=True)
+2025-12-05 10:18:25.303 | INFO     | manifest_loader:_load_external_schema_if_exists:82 - Schema externo encontrado em schemas/manifest_v3.json
+2025-12-05 10:18:25.310 | INFO     | manifest_loader:load_manifest:256 - Manifest carregado e normalizado para job_dir='processing/job_bmf_turismo_996' → 'manifest.normalizado.json'
+2025-12-05 10:18:25.314 | WARNING  | watcher:process_job:121 - [job_bmf_turismo_996] job_id no manifest difere do nome da pasta. Prosseguindo assim mesmo.
+2025-12-05 10:18:25.315 | INFO     | watcher:process_job:124 - [job_bmf_turismo_996] Iniciando OCR/Docling…
+2025-12-05 10:18:25.320 | INFO     | extrator_docling:executar_ocr:59 - Iniciando extração de cartao_cnpj.pdf
+2025-12-05 10:18:41.637 | INFO     | extrator_docling:executar_ocr:85 - Extração concluída: cartao_cnpj.pdf via Docling
+2025-12-05 10:18:41.640 | INFO     | extrator_docling:executar_ocr:59 - Iniciando extração de ii_alteracao_contratual_bmf_turismo.pdf
+2025-12-05 10:26:33.353 | INFO     | extrator_docling:executar_ocr:85 - Extração concluída: ii_alteracao_contratual_bmf_turismo.pdf via Docling
+2025-12-05 10:26:33.357 | INFO     | extrator_docling:executar_ocr:59 - Iniciando extração de fernando_de_lima_vila_nova.pdf
+2025-12-05 10:29:13.065 | INFO     | extrator_docling:executar_ocr:85 - Extração concluída: fernando_de_lima_vila_nova.pdf via Docling
+2025-12-05 10:29:13.068 | INFO     | watcher:process_job:126 - [job_bmf_turismo_996] OCR/Docling concluído: OK
+2025-12-05 10:29:13.070 | INFO     | watcher:process_job:129 - [job_bmf_turismo_996] Iniciando IA Validador 1…
+2025-12-05 10:29:13.075 | INFO     | doc_verifier_agent:validar_documentos_openai:64 - Enviando análise para OpenAI (PJ)...
+2025-12-05 10:29:54.723 | INFO     | doc_verifier_agent:validar_documentos_openai:97 - Validação IA concluída para job_bmf_turismo_996 (padrao)
+2025-12-05 10:29:54.724 | INFO     | watcher:process_job:131 - [job_bmf_turismo_996] IA1 concluída: OK
+2025-12-05 10:29:54.725 | INFO     | watcher:process_job:134 - [job_bmf_turismo_996] Consultando dados ReceitaWS…
+2025-12-05 10:29:54.731 | INFO     | watcher:_stage_manifest_for_serpro:92 - [job_bmf_turismo_996] Manifest staged para ReceitaWS: outbox/job_bmf_turismo_996/serpro/manifest_for_serpro.json
+2025-12-05 10:29:58.161 | INFO     | watcher:process_job:140 - [job_bmf_turismo_996] ReceitaWS concluída: OK
+2025-12-05 10:29:58.163 | INFO     | watcher:process_job:143 - [job_bmf_turismo_996] Iniciando IA Validador 2 (comparativa)…
+2025-12-05 10:29:58.167 | INFO     | doc_verifier_agent:validar_documentos_openai:64 - Enviando análise para OpenAI (PJ)...
+2025-12-05 10:30:29.491 | INFO     | doc_verifier_agent:validar_documentos_openai:97 - Validação IA concluída para job_bmf_turismo_996 (comparativo)
+2025-12-05 10:30:29.496 | INFO     | watcher:process_job:150 - [job_bmf_turismo_996] IA2 concluída: OK
+2025-12-05 10:30:29.496 | INFO     | watcher:process_job:153 - [job_bmf_turismo_996] Gerando relatório final…
+2025-12-05 10:30:29.519 | INFO     | relatorio:gerar_relatorio_final:86 - Relatórios finais gerados em outbox\job_bmf_turismo_996\resultado
+2025-12-05 10:30:29.523 | INFO     | watcher:process_job:155 - [job_bmf_turismo_996] Relatório final gerado.
+2025-12-05 10:30:29.533 | ERROR    | watcher:process_job:162 - [job_bmf_turismo_996] Erro durante o processamento do job: registrar_evento() got multiple values for argument 'nivel'
+Traceback (most recent call last):
+
+  File "C:\Python313\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x00000180E0B72340>
+    └ <Thread(ScriptRunner.scriptThread, started 19124)>
+  File "C:\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x00000180E0B720C0>
+    └ <Thread(ScriptRunner.scriptThread, started 19124)>
+  File "C:\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 19124)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 19124)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='2fab3e76-3efd-443e-b81c-cc5bc53b77e0', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 19124)>
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 378, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x00000180E3352B60>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=, page_script_hash='5bc02cefb3ea9e...
+    │    └ <function ScriptRunner._run_script at 0x00000180E3F445E0>
+    └ ScriptRunner(_session_id='2fab3e76-3efd-443e-b81c-cc5bc53b77e0', _main_script_path='main.py', _session_state={}, _uploaded_fi...
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 685, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='2fab3e76-3efd-443e-b81c-cc5bc53b77e0', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x00000180E47C3CE0>
+        └ <function exec_func_with_error_handling at 0x00000180E3EBF740>
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x00000180E47C3CE0>
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'main.py'>
+         └ <code object <module> at 0x00000180E3954230, file "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OC...
+
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\main.py", line 158, in <module>
+    main()
+    └ <function main at 0x000001809672D620>
+
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\main.py", line 155, in main
+    detect_and_move_jobs(run_once=False)
+    └ <function detect_and_move_jobs at 0x000001809672D580>
+
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py", line 177, in detect_and_move_jobs
+    process_job(job_dir)
+    │           └ WindowsPath('inbox/job_bmf_turismo_996')
+    └ <function process_job at 0x000001809672D4E0>
+
+> File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py", line 159, in process_job
+    registrar_evento(job_id, "WATCHER", "Pipeline concluído com sucesso", nivel="info")
+    │                └ 'job_bmf_turismo_996'
+    └ <function registrar_evento at 0x00000180E588C400>
+
+TypeError: registrar_evento() got multiple values for argument 'nivel'
+2025-12-05 10:30:29.566 | INFO     | log_service:registrar_evento:164 - [WATCHER] Pipeline falhou: registrar_evento() got multiple values for argument 'nivel'
+2025-12-05 11:47:35.560 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 11:47:56.041 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 11:47:56.043 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 11:47:56.045 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 11:47:56.047 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 11:47:56.047 | INFO     | consulta_serpro:<module>:20 - ReceitaWS MODE ATIVO — consulta_serpro.py (build 2025-11-05) | file=%s
+2025-12-05 11:47:56.050 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 11:47:56.050 | INFO     | watcher:<module>:20 - watcher.py carregado de: C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py
+2025-12-05 11:47:56.052 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 14:31:24.330 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 14:32:02.560 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 14:32:02.565 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 14:32:02.572 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 14:32:02.578 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 14:32:02.578 | INFO     | consulta_serpro:<module>:20 - ReceitaWS MODE ATIVO — consulta_serpro.py (build 2025-11-05) | file=%s
+2025-12-05 14:32:02.587 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 14:32:02.588 | INFO     | watcher:<module>:20 - watcher.py carregado de: C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py
+2025-12-05 14:32:02.592 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 14:32:02.597 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 14:32:02.597 | INFO     | __main__:main:143 - Estrutura de diretórios verificada:
+2025-12-05 14:32:02.599 | INFO     | __main__:main:154 - Modo PRODUÇÃO - monitoramento contínuo iniciado.
+2025-12-05 14:32:02.599 | INFO     | watcher:detect_and_move_jobs:171 - Iniciando monitoramento do diretório /inbox …
+2025-12-05 14:32:17.606 | INFO     | watcher:detect_and_move_jobs:175 - 1 job(s) detectado(s) em /inbox.
+2025-12-05 14:32:17.606 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_995] WATCHER
+2025-12-05 14:32:17.612 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_995] WATCHER
+2025-12-05 14:32:17.614 | INFO     | manifest_loader:load_manifest:218 - [MANIFEST] Tentando carregar: processing\job_bmf_turismo_995\manifest.json (exists=True)
+2025-12-05 14:32:17.621 | INFO     | manifest_loader:_load_external_schema_if_exists:82 - Schema externo encontrado em schemas/manifest_v3.json
+2025-12-05 14:32:17.625 | INFO     | manifest_loader:load_manifest:256 - Manifest carregado e normalizado para job_dir='processing/job_bmf_turismo_995' → 'manifest.normalizado.json'
+2025-12-05 14:32:17.626 | WARNING  | watcher:process_job:121 - [job_bmf_turismo_995] job_id no manifest difere do nome da pasta. Prosseguindo assim mesmo.
+2025-12-05 14:32:17.626 | INFO     | watcher:process_job:124 - [job_bmf_turismo_995] Iniciando OCR/Docling…
+2025-12-05 14:32:17.627 | INFO     | ocr_router:executar_ocr:28 - Iniciando OCR para 3 arquivos.
+2025-12-05 14:32:17.628 | INFO     | ocr_router:executar_ocr:63 - Roteando cartao_cnpj.pdf para Pipeline Padrão (Docling).
+2025-12-05 14:32:31.858 | INFO     | ocr_router:executar_ocr:63 - Roteando ii_alteracao_contratual_bmf_turismo.pdf para Pipeline Padrão (Docling).
+2025-12-05 14:36:16.275 | INFO     | ocr_router:executar_ocr:63 - Roteando fernando_de_lima_vila_nova.pdf para Pipeline Padrão (Docling).
+2025-12-05 14:37:07.483 | INFO     | watcher:process_job:126 - [job_bmf_turismo_995] OCR/Docling concluído: OK
+2025-12-05 14:37:07.484 | INFO     | watcher:process_job:129 - [job_bmf_turismo_995] Iniciando IA Validador 1…
+2025-12-05 14:37:07.489 | INFO     | doc_verifier_agent:validar_documentos_openai:64 - Enviando análise para OpenAI (PJ)...
+2025-12-05 14:37:40.013 | INFO     | doc_verifier_agent:validar_documentos_openai:97 - Validação IA concluída para job_bmf_turismo_995 (padrao)
+2025-12-05 14:37:40.013 | INFO     | watcher:process_job:131 - [job_bmf_turismo_995] IA1 concluída: OK
+2025-12-05 14:37:40.014 | INFO     | watcher:process_job:134 - [job_bmf_turismo_995] Consultando dados ReceitaWS…
+2025-12-05 14:37:40.016 | INFO     | watcher:_stage_manifest_for_serpro:92 - [job_bmf_turismo_995] Manifest staged para ReceitaWS: outbox/job_bmf_turismo_995/serpro/manifest_for_serpro.json
+2025-12-05 14:37:41.186 | INFO     | watcher:process_job:140 - [job_bmf_turismo_995] ReceitaWS concluída: OK
+2025-12-05 14:37:41.186 | INFO     | watcher:process_job:143 - [job_bmf_turismo_995] Iniciando IA Validador 2 (comparativa)…
+2025-12-05 14:37:41.188 | INFO     | doc_verifier_agent:validar_documentos_openai:64 - Enviando análise para OpenAI (PJ)...
+2025-12-05 14:38:06.609 | INFO     | doc_verifier_agent:validar_documentos_openai:97 - Validação IA concluída para job_bmf_turismo_995 (comparativo)
+2025-12-05 14:38:06.609 | INFO     | watcher:process_job:150 - [job_bmf_turismo_995] IA2 concluída: OK
+2025-12-05 14:38:06.609 | INFO     | watcher:process_job:153 - [job_bmf_turismo_995] Gerando relatório final…
+2025-12-05 14:38:06.615 | INFO     | relatorio:gerar_relatorio_final:86 - Relatórios finais gerados em outbox\job_bmf_turismo_995\resultado
+2025-12-05 14:38:06.616 | INFO     | watcher:process_job:155 - [job_bmf_turismo_995] Relatório final gerado.
+2025-12-05 14:38:06.618 | ERROR    | watcher:process_job:162 - [job_bmf_turismo_995] Erro durante o processamento do job: registrar_evento() got multiple values for argument 'nivel'
+Traceback (most recent call last):
+
+  File "C:\Python313\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001EE37322340>
+    └ <Thread(ScriptRunner.scriptThread, started 33336)>
+  File "C:\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001EE373220C0>
+    └ <Thread(ScriptRunner.scriptThread, started 33336)>
+  File "C:\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 33336)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 33336)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='04c7e816-c997-4cf2-a142-a643609d432d', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 33336)>
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 378, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x000001EE39B92C50>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=, context_info=timezone: "America/...
+    │    └ <function ScriptRunner._run_script at 0x000001EE3A7845E0>
+    └ ScriptRunner(_session_id='04c7e816-c997-4cf2-a142-a643609d432d', _main_script_path='main.py', _session_state={}, _uploaded_fi...
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 685, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='04c7e816-c997-4cf2-a142-a643609d432d', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x000001EE3AFC4180>
+        └ <function exec_func_with_error_handling at 0x000001EE3A6FF740>
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x000001EE3AFC4180>
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'main.py'>
+         └ <code object <module> at 0x000001EE38DD3420, file "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OC...
+
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\main.py", line 158, in <module>
+    main()
+    └ <function main at 0x000001EE3D0ADE40>
+
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\main.py", line 155, in main
+    detect_and_move_jobs(run_once=False)
+    └ <function detect_and_move_jobs at 0x000001EE6D6A34C0>
+
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py", line 177, in detect_and_move_jobs
+    process_job(job_dir)
+    │           └ WindowsPath('inbox/job_bmf_turismo_995')
+    └ <function process_job at 0x000001EE6D6A3420>
+
+> File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py", line 159, in process_job
+    registrar_evento(job_id, "WATCHER", "Pipeline concluído com sucesso", nivel="info")
+    │                └ 'job_bmf_turismo_995'
+    └ <function registrar_evento at 0x000001EE3C038860>
+
+TypeError: registrar_evento() got multiple values for argument 'nivel'
+2025-12-05 14:38:06.623 | INFO     | log_service:registrar_evento:164 - [WATCHER] Pipeline falhou: registrar_evento() got multiple values for argument 'nivel'
+2025-12-05 14:47:11.829 | INFO     | watcher:detect_and_move_jobs:175 - 1 job(s) detectado(s) em /inbox.
+2025-12-05 14:47:11.830 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_994] WATCHER
+2025-12-05 14:47:11.833 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_994] WATCHER
+2025-12-05 14:47:11.834 | INFO     | manifest_loader:load_manifest:218 - [MANIFEST] Tentando carregar: processing\job_bmf_turismo_994\manifest.json (exists=True)
+2025-12-05 14:47:11.836 | INFO     | manifest_loader:_load_external_schema_if_exists:82 - Schema externo encontrado em schemas/manifest_v3.json
+2025-12-05 14:47:11.843 | INFO     | manifest_loader:load_manifest:256 - Manifest carregado e normalizado para job_dir='processing/job_bmf_turismo_994' → 'manifest.normalizado.json'
+2025-12-05 14:47:11.843 | WARNING  | watcher:process_job:121 - [job_bmf_turismo_994] job_id no manifest difere do nome da pasta. Prosseguindo assim mesmo.
+2025-12-05 14:47:11.843 | INFO     | watcher:process_job:124 - [job_bmf_turismo_994] Iniciando OCR/Docling…
+2025-12-05 14:47:11.844 | INFO     | ocr_router:executar_ocr:28 - Iniciando OCR para 3 arquivos.
+2025-12-05 14:47:11.846 | INFO     | ocr_router:executar_ocr:63 - Roteando cartao_cnpj.pdf para Pipeline Padrão (Docling).
+2025-12-05 14:47:13.637 | WARNING  | extrator_docling:extrair_com_docling:122 - Docling falhou: cannot schedule new futures after interpreter shutdown
+2025-12-05 14:47:16.970 | INFO     | ocr_router:executar_ocr:63 - Roteando ii_alteracao_contratual_bmf_turismo.pdf para Pipeline Padrão (Docling).
+2025-12-05 14:47:18.388 | WARNING  | extrator_docling:extrair_com_docling:122 - Docling falhou: cannot schedule new futures after interpreter shutdown
+2025-12-05 14:47:51.898 | INFO     | ocr_router:executar_ocr:42 - Roteando fernando_de_lima_vila_nova.pdf para CNH OCR.
+2025-12-05 14:47:52.525 | INFO     | cnh_ocr:process_cnh:75 - Processando página 1 de processing\job_bmf_turismo_994\fernando_de_lima_vila_nova.pdf
+2025-12-05 14:47:54.929 | INFO     | ledger:register_entry:68 - Ledger atualizado: job_bmf_turismo_994/a3 (OCR_CNH) → OK
+2025-12-05 14:47:54.938 | INFO     | watcher:process_job:126 - [job_bmf_turismo_994] OCR/Docling concluído: OK
+2025-12-05 14:47:54.939 | INFO     | watcher:process_job:129 - [job_bmf_turismo_994] Iniciando IA Validador 1…
+2025-12-05 14:47:54.942 | INFO     | doc_verifier_agent:validar_documentos_openai:64 - Enviando análise para OpenAI (PJ)...
+2025-12-05 14:48:25.408 | INFO     | doc_verifier_agent:validar_documentos_openai:97 - Validação IA concluída para job_bmf_turismo_994 (padrao)
+2025-12-05 14:48:25.409 | INFO     | watcher:process_job:131 - [job_bmf_turismo_994] IA1 concluída: OK
+2025-12-05 14:48:25.409 | INFO     | watcher:process_job:134 - [job_bmf_turismo_994] Consultando dados ReceitaWS…
+2025-12-05 14:48:25.412 | INFO     | watcher:_stage_manifest_for_serpro:92 - [job_bmf_turismo_994] Manifest staged para ReceitaWS: outbox/job_bmf_turismo_994/serpro/manifest_for_serpro.json
+2025-12-05 14:48:26.379 | INFO     | watcher:process_job:140 - [job_bmf_turismo_994] ReceitaWS concluída: OK
+2025-12-05 14:48:26.379 | INFO     | watcher:process_job:143 - [job_bmf_turismo_994] Iniciando IA Validador 2 (comparativa)…
+2025-12-05 14:48:26.381 | INFO     | doc_verifier_agent:validar_documentos_openai:64 - Enviando análise para OpenAI (PJ)...
+2025-12-05 14:48:54.509 | INFO     | doc_verifier_agent:validar_documentos_openai:97 - Validação IA concluída para job_bmf_turismo_994 (comparativo)
+2025-12-05 14:48:54.511 | INFO     | watcher:process_job:150 - [job_bmf_turismo_994] IA2 concluída: OK
+2025-12-05 14:48:54.511 | INFO     | watcher:process_job:153 - [job_bmf_turismo_994] Gerando relatório final…
+2025-12-05 14:48:54.524 | INFO     | relatorio:gerar_relatorio_final:86 - Relatórios finais gerados em outbox\job_bmf_turismo_994\resultado
+2025-12-05 14:48:54.524 | INFO     | watcher:process_job:155 - [job_bmf_turismo_994] Relatório final gerado.
+2025-12-05 14:48:54.528 | ERROR    | watcher:process_job:162 - [job_bmf_turismo_994] Erro durante o processamento do job: registrar_evento() got multiple values for argument 'nivel'
+Traceback (most recent call last):
+
+  File "C:\Python313\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x000001EE37322340>
+    └ <Thread(ScriptRunner.scriptThread, started 33336)>
+  File "C:\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x000001EE373220C0>
+    └ <Thread(ScriptRunner.scriptThread, started 33336)>
+  File "C:\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 33336)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 33336)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='04c7e816-c997-4cf2-a142-a643609d432d', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 33336)>
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 378, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x000001EE39B92C50>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=, context_info=timezone: "America/...
+    │    └ <function ScriptRunner._run_script at 0x000001EE3A7845E0>
+    └ ScriptRunner(_session_id='04c7e816-c997-4cf2-a142-a643609d432d', _main_script_path='main.py', _session_state={}, _uploaded_fi...
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 685, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='04c7e816-c997-4cf2-a142-a643609d432d', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x000001EE3AFC4180>
+        └ <function exec_func_with_error_handling at 0x000001EE3A6FF740>
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x000001EE3AFC4180>
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'main.py'>
+         └ <code object <module> at 0x000001EE38DD3420, file "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OC...
+
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\main.py", line 158, in <module>
+    main()
+    └ <function main at 0x000001EE3D0ADE40>
+
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\main.py", line 155, in main
+    detect_and_move_jobs(run_once=False)
+    └ <function detect_and_move_jobs at 0x000001EE6D6A34C0>
+
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py", line 177, in detect_and_move_jobs
+    process_job(job_dir)
+    │           └ WindowsPath('inbox/job_bmf_turismo_994')
+    └ <function process_job at 0x000001EE6D6A3420>
+
+> File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py", line 159, in process_job
+    registrar_evento(job_id, "WATCHER", "Pipeline concluído com sucesso", nivel="info")
+    │                └ 'job_bmf_turismo_994'
+    └ <function registrar_evento at 0x000001EE3C038860>
+
+TypeError: registrar_evento() got multiple values for argument 'nivel'
+2025-12-05 14:48:54.532 | INFO     | log_service:registrar_evento:164 - [WATCHER] Pipeline falhou: registrar_evento() got multiple values for argument 'nivel'
+2025-12-05 15:00:58.689 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 15:01:15.251 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 15:01:15.254 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 15:01:15.258 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 15:01:15.263 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 15:01:15.263 | INFO     | consulta_serpro:<module>:20 - ReceitaWS MODE ATIVO — consulta_serpro.py (build 2025-11-05) | file=%s
+2025-12-05 15:01:15.268 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 15:01:15.268 | INFO     | watcher:<module>:20 - watcher.py carregado de: C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py
+2025-12-05 15:01:15.271 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 15:01:15.277 | INFO     | log_service:init_folders:119 - Estrutura de diretórios inicializada com sucesso.
+2025-12-05 15:01:15.278 | INFO     | __main__:main:143 - Estrutura de diretórios verificada:
+2025-12-05 15:01:15.279 | INFO     | __main__:main:154 - Modo PRODUÇÃO - monitoramento contínuo iniciado.
+2025-12-05 15:01:15.280 | INFO     | watcher:detect_and_move_jobs:171 - Iniciando monitoramento do diretório /inbox …
+2025-12-05 15:01:45.292 | INFO     | watcher:detect_and_move_jobs:175 - 1 job(s) detectado(s) em /inbox.
+2025-12-05 15:01:45.293 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_994] WATCHER
+2025-12-05 15:01:45.295 | INFO     | log_service:registrar_evento:164 - [job_bmf_turismo_994] WATCHER
+2025-12-05 15:01:45.296 | INFO     | manifest_loader:load_manifest:218 - [MANIFEST] Tentando carregar: processing\job_bmf_turismo_994\manifest.json (exists=True)
+2025-12-05 15:01:45.298 | INFO     | manifest_loader:_load_external_schema_if_exists:82 - Schema externo encontrado em schemas/manifest_v3.json
+2025-12-05 15:01:45.301 | INFO     | manifest_loader:load_manifest:256 - Manifest carregado e normalizado para job_dir='processing/job_bmf_turismo_994' → 'manifest.normalizado.json'
+2025-12-05 15:01:45.303 | WARNING  | watcher:process_job:121 - [job_bmf_turismo_994] job_id no manifest difere do nome da pasta. Prosseguindo assim mesmo.
+2025-12-05 15:01:45.305 | INFO     | watcher:process_job:124 - [job_bmf_turismo_994] Iniciando OCR/Docling…
+2025-12-05 15:01:45.306 | INFO     | ocr_router:executar_ocr:28 - Iniciando OCR para 3 arquivos.
+2025-12-05 15:01:45.307 | INFO     | ocr_router:executar_ocr:71 - Roteando cartao_cnpj.pdf para Pipeline Padrão (Docling).
+2025-12-05 15:01:51.445 | INFO     | ocr_router:executar_ocr:71 - Roteando ii_alteracao_contratual_bmf_turismo.pdf para Pipeline Padrão (Docling).
+2025-12-05 15:06:12.422 | INFO     | ocr_router:executar_ocr:50 - Roteando fernando_de_lima_vila_nova.pdf para CNH OCR.
+2025-12-05 15:06:13.140 | INFO     | cnh_ocr:process_cnh:75 - Processando página 1 de processing\job_bmf_turismo_994\fernando_de_lima_vila_nova.pdf
+2025-12-05 15:06:15.537 | INFO     | ledger:register_entry:68 - Ledger atualizado: job_bmf_turismo_994/a3 (OCR_CNH) → OK
+2025-12-05 15:06:15.553 | INFO     | watcher:process_job:126 - [job_bmf_turismo_994] OCR/Docling concluído: OK
+2025-12-05 15:06:15.554 | INFO     | watcher:process_job:129 - [job_bmf_turismo_994] Iniciando IA Validador 1…
+2025-12-05 15:06:15.558 | INFO     | doc_verifier_agent:validar_documentos_openai:64 - Enviando análise para OpenAI (PJ)...
+2025-12-05 15:06:48.309 | INFO     | doc_verifier_agent:validar_documentos_openai:97 - Validação IA concluída para job_bmf_turismo_994 (padrao)
+2025-12-05 15:06:48.311 | INFO     | watcher:process_job:131 - [job_bmf_turismo_994] IA1 concluída: OK
+2025-12-05 15:06:48.312 | INFO     | watcher:process_job:134 - [job_bmf_turismo_994] Consultando dados ReceitaWS…
+2025-12-05 15:06:48.315 | INFO     | watcher:_stage_manifest_for_serpro:92 - [job_bmf_turismo_994] Manifest staged para ReceitaWS: outbox/job_bmf_turismo_994/serpro/manifest_for_serpro.json
+2025-12-05 15:06:49.778 | INFO     | watcher:process_job:140 - [job_bmf_turismo_994] ReceitaWS concluída: OK
+2025-12-05 15:06:49.780 | INFO     | watcher:process_job:143 - [job_bmf_turismo_994] Iniciando IA Validador 2 (comparativa)…
+2025-12-05 15:06:49.784 | INFO     | doc_verifier_agent:validar_documentos_openai:64 - Enviando análise para OpenAI (PJ)...
+2025-12-05 15:07:18.975 | INFO     | doc_verifier_agent:validar_documentos_openai:97 - Validação IA concluída para job_bmf_turismo_994 (comparativo)
+2025-12-05 15:07:18.976 | INFO     | watcher:process_job:150 - [job_bmf_turismo_994] IA2 concluída: OK
+2025-12-05 15:07:18.977 | INFO     | watcher:process_job:153 - [job_bmf_turismo_994] Gerando relatório final…
+2025-12-05 15:07:18.987 | INFO     | relatorio:gerar_relatorio_final:86 - Relatórios finais gerados em outbox\job_bmf_turismo_994\resultado
+2025-12-05 15:07:18.988 | INFO     | watcher:process_job:155 - [job_bmf_turismo_994] Relatório final gerado.
+2025-12-05 15:07:19.020 | ERROR    | watcher:process_job:162 - [job_bmf_turismo_994] Erro durante o processamento do job: registrar_evento() got multiple values for argument 'nivel'
+Traceback (most recent call last):
+
+  File "C:\Python313\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x00000201F0F22340>
+    └ <Thread(ScriptRunner.scriptThread, started 11048)>
+  File "C:\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x00000201F0F220C0>
+    └ <Thread(ScriptRunner.scriptThread, started 11048)>
+  File "C:\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(ScriptRunner.scriptThread, started 11048)>
+    │    │        │    └ ()
+    │    │        └ <Thread(ScriptRunner.scriptThread, started 11048)>
+    │    └ <bound method ScriptRunner._run_script_thread of ScriptRunner(_session_id='b8009e62-6d56-43e4-9733-175f648f0808', _main_scrip...
+    └ <Thread(ScriptRunner.scriptThread, started 11048)>
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 378, in _run_script_thread
+    self._run_script(request.rerun_data)
+    │    │           │       └ <property object at 0x00000201F37F2CA0>
+    │    │           └ ScriptRequest(type=<ScriptRequestType.RERUN: 'RERUN'>, _rerun_data=RerunData(widget_states=, page_script_hash='5bc02cefb3ea9e...
+    │    └ <function ScriptRunner._run_script at 0x00000201F43E45E0>
+    └ ScriptRunner(_session_id='b8009e62-6d56-43e4-9733-175f648f0808', _main_script_path='main.py', _session_state={}, _uploaded_fi...
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 685, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+        │                             │             └ ScriptRunContext(session_id='b8009e62-6d56-43e4-9733-175f648f0808', _enqueue=<bound method ScriptRunner._enqueue_forward_msg ...
+        │                             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x00000201F4BFFE20>
+        └ <function exec_func_with_error_handling at 0x00000201F435F740>
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             └ <function ScriptRunner._run_script.<locals>.code_to_exec at 0x00000201F4BFFE20>
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+         │     │      └ <member '__dict__' of 'module' objects>
+         │     └ <module '__main__' from 'main.py'>
+         └ <code object <module> at 0x00000201F3CC50A0, file "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OC...
+
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\main.py", line 158, in <module>
+    main()
+    └ <function main at 0x00000201F6D2A840>
+
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\main.py", line 155, in main
+    detect_and_move_jobs(run_once=False)
+    └ <function detect_and_move_jobs at 0x00000201A75F3E20>
+
+  File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py", line 177, in detect_and_move_jobs
+    process_job(job_dir)
+    │           └ WindowsPath('inbox/job_bmf_turismo_994')
+    └ <function process_job at 0x00000201A75F3D80>
+
+> File "C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\watcher.py", line 159, in process_job
+    registrar_evento(job_id, "WATCHER", "Pipeline concluído com sucesso", nivel="info")
+    │                └ 'job_bmf_turismo_994'
+    └ <function registrar_evento at 0x00000201F4CEC540>
+
+TypeError: registrar_evento() got multiple values for argument 'nivel'
+2025-12-05 15:07:19.033 | INFO     | log_service:registrar_evento:164 - [WATCHER] Pipeline falhou: registrar_evento() got multiple values for argument 'nivel'

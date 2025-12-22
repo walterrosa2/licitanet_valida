@@ -1,0 +1,51 @@
+{
+  "job_id": "job_bmf_turismo_001",
+  "fornecedor_id": "22157088000192",
+  "perfil_validacao": "PJ",
+  "contexto": {
+    "razao_social": "BMF TURISMO LTDA",
+    "cnpj": "22.157.088/0001-92",
+    "responsavel": "FERNANDO DE LIMA VILA NOVA",
+    "origem_dados": "simulação_licitanet",
+    "descricao": "Validação documental societária BMF TURISMO LTDA — contrato social, alteração contratual e cartão CNPJ"
+  },
+  "reprocessar": false,
+  "reprocess_scope": "AUTO_MANIFEST",
+  "arquivos": [
+    {
+      "id": "a1",
+      "nome": "cartao_cnpj.pdf",
+      "tipo_previsto": "CARTAO_CNPJ",
+      "origem": "fornecedor",
+      "paginas": 1,
+      "hash": "cartao_cnpj_22157088000192",
+      "legibilidade_score": 0.98,
+      "opcional": false
+    },
+    {
+      "id": "a2",
+      "nome": "ii_alteracao_contratual_bmf_turismo.pdf",
+      "tipo_previsto": "CONTRATO_SOCIAL",
+      "origem": "fornecedor",
+      "paginas": 9,
+      "hash": "ii_alteracao_contratual_bmf_turismo_2023",
+      "legibilidade_score": 0.95,
+      "opcional": false
+    },
+    {
+      "id": "a3",
+      "nome": "fernando_de_lima_vila_nova.pdf",
+      "tipo_previsto": "DOCUMENTO_IDENTIFICACAO",
+      "origem": "fornecedor",
+      "paginas": 1,
+      "hash": "fernando_de_lima_vila_nova_cnh",
+      "legibilidade_score": 0.9,
+      "opcional": true
+    }
+  ],
+  "metadados": {
+    "fonte_upload": "simulação_local",
+    "data_manifesto": "2025-11-05T15:45:00-03:00"
+  },
+  "subperfil_pf": null
+}

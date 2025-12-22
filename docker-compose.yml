@@ -1,0 +1,29 @@
+version: "3.9"
+
+services:
+  licitanet:
+    container_name: licitanet_valida
+    image: ghcr.io/walterrosa2/licitanet_valida:1.0.1
+    restart: unless-stopped
+
+    # Monta TODA a pasta do projeto dentro do container
+    volumes:
+      - .:/app
+
+    # Força execução como root para permitir download de modelos do OCR (RapidOCR/Docling)
+    user: "root"
+
+    environment:
+      # Diretório base de dados (estado do pipeline)
+      BASE_DIR: /app/data
+
+      PATH_INBOX: /app/data/inbox
+      PATH_PROCESSING: /app/data/processing
+      PATH_OUTBOX: /app/data/outbox
+      PATH_DONE: /app/data/done
+      PATH_ERROR: /app/data/error
+      PATH_LOGS: /app/data/logs
+      PATH_EVIDENCIAS: /app/data/evidencias
+
+    ports:
+      - "8599:8599"
