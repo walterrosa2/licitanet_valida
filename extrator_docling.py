@@ -21,7 +21,7 @@ Dependências:
 import os
 import io
 from pathlib import Path
-from log_service import get_logger, init_folders
+from log_service import get_logger, init_folders, safe_mkdir
 from datetime import datetime
 from typing import Dict, Any, List
 
@@ -43,7 +43,7 @@ def executar_ocr(job_id: str, manifest: Dict[str, Any]) -> Dict[str, Any]:
     Retorna dicionário com status, dados extraídos e paths das evidências.
     """
     evid_dir = Path(DIRS["EVID_OCR_DIR"]) / job_id
-    evid_dir.mkdir(parents=True, exist_ok=True)
+    safe_mkdir(evid_dir)
 
     resultados: List[Dict[str, Any]] = []
     texto_consolidado = ""

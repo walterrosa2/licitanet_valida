@@ -19,7 +19,7 @@ import os
 import json
 from datetime import datetime
 from pathlib import Path
-from log_service import get_logger, init_folders
+from log_service import get_logger, init_folders, safe_mkdir
 
 LOGGER = get_logger("relatorio")
 DIRS = init_folders()
@@ -36,7 +36,7 @@ def gerar_relatorio_final(
     Consolida todas as saídas e gera os arquivos finais do job.
     """
     out_dir = Path(DIRS["OUTBOX_DIR"]) / job_id / "resultado"
-    out_dir.mkdir(parents=True, exist_ok=True)
+    safe_mkdir(out_dir)
 
     # === 1. Resumo Executivo ===
     resumo_texto = gerar_resumo_executivo(manifest, ocr_result, ia1_result, serpro_result, ia2_result)

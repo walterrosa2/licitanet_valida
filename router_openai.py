@@ -8,8 +8,10 @@ import time
 from pathlib import Path
 from typing import Any, Dict, Optional
 from openai import OpenAI
-from loguru import logger
+from log_service import get_logger, safe_mkdir
 from env_loader import get_client, get_model
+
+logger = get_logger(__name__)
 
 # ==========================================================
 # Inicialização
@@ -23,9 +25,6 @@ MODEL_DEFAULT = get_model("gpt-4o-mini")
 # ==========================================================
 # Funções auxiliares
 # ==========================================================
-def ensure_dir(path: Path):
-    """Garante que o diretório exista."""
-    path.mkdir(parents=True, exist_ok=True)
 
 
 def save_evidence(job_id: str, stage: str, data: Dict[str, Any]) -> Path:
@@ -33,7 +32,7 @@ def save_evidence(job_id: str, stage: str, data: Dict[str, Any]) -> Path:
     Salva evidências de entrada e saída em /outbox/<job_id>/<stage>.json
     """
     out_dir = OUTBOX_DIR / job_id
-    ensure_dir(out_dir)
+    safe_mkdir(out_dir)
     file_path = out_dir / f"{stage}.json"
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)

@@ -7,7 +7,7 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, Any, List
 
-from log_service import get_logger, init_folders
+from log_service import get_logger, init_folders, safe_mkdir
 from cnh_ocr import process_cnh
 from extrator_docling import extrair_com_docling, extrair_com_tesseract, localizar_arquivo
 
@@ -20,7 +20,7 @@ def executar_ocr(job_id: str, manifest: Dict[str, Any]) -> Dict[str, Any]:
     Itera sobre os arquivos do manifest e decide qual extrator usar.
     """
     evid_dir = Path(DIRS["EVID_OCR_DIR"]) / job_id
-    evid_dir.mkdir(parents=True, exist_ok=True)
+    safe_mkdir(evid_dir)
     
     resultados: List[Dict[str, Any]] = []
     texto_consolidado = ""

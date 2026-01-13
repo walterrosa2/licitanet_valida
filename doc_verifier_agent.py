@@ -20,7 +20,7 @@ import os
 import json
 from datetime import datetime
 from pathlib import Path
-from log_service import get_logger, init_folders
+from log_service import get_logger, init_folders, safe_mkdir
 from openai import OpenAI
 from env_loader import get_client, get_model
 # Inicializações
@@ -28,7 +28,7 @@ from env_loader import get_client, get_model
 LOGGER = get_logger("openai_agent")
 DIRS = init_folders()
 
-OPENAI_MODEL = get_model("gpt-4o-mini")
+OPENAI_MODEL = get_model("gpt-4o")
 PROMPT_PF_PATH = os.getenv("PROMPT_PF_PATH", "./prompts/prompt_pf_2410.md")
 PROMPT_PJ_PATH = os.getenv("PROMPT_PJ_PATH", "./prompts/prompt_pj_2410.md")
 
@@ -51,7 +51,7 @@ def validar_documentos_openai(job_id: str, conteudo: str, manifest: dict, modo: 
 
     # Cria pasta de saída
     evid_dir = Path(DIRS["OUTBOX_DIR"]) / job_id / "ia"
-    evid_dir.mkdir(parents=True, exist_ok=True)
+    safe_mkdir(evid_dir)
 
     # Monta o input final
     entrada = {
@@ -71,7 +71,7 @@ def validar_documentos_openai(job_id: str, conteudo: str, manifest: dict, modo: 
                 {"role": "system", "content": prompt_base},
                 {"role": "user", "content": json.dumps(entrada, ensure_ascii=False)}
             ],
-            temperature=0.1,
+            temperature=0.4,
             max_tokens=4000
         )
 

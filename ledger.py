@@ -27,12 +27,12 @@ import os
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, Any, Optional
-from log_service import get_logger
+from log_service import get_logger, safe_mkdir
 
 LOGGER = get_logger("ledger")
 
 LEDGER_PATH = Path("logs/ledger.jsonl")
-LEDGER_PATH.parent.mkdir(parents=True, exist_ok=True)
+safe_mkdir(LEDGER_PATH.parent)
 
 # =====================================================
 # 🔹 Função principal: registrar execuções

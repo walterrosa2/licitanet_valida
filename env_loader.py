@@ -3,39 +3,44 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 
-# Carrega .env na MESMA PASTA deste arquivo
+# Localização do arquivo .env
 DOTENV_PATH = os.path.join(os.path.dirname(__file__), ".env")
-load_dotenv(dotenv_path=DOTENV_PATH, override=True)
+
+# Carrega .env apenas como fallback. 
+# Se a variável já existir no Sistema/Docker-compose, ela NÃO será alterada pelo .env.
+load_dotenv(dotenv_path=DOTENV_PATH, override=False)
 
 def _mask(s: str, keep: int = 6) -> str:
-    if not s:
-        return ""
-    return s[:keep] + "*" * max(0, len(s) - keep)
+    if not s or len(s) < keep:
+        return "***"
+    return s[:keep] + "*" * (len(s) - keep)
 
 def get_client() -> OpenAI:
     """
-    Retorna um cliente OpenAI garantindo que a OPENAI_API_KEY vem do .env.
-    Zera interferências e evita 'memória' de chave em qualquer SDK.
+    Retorna um cliente OpenAI respeitando a prioridade:
+    1. Variáveis de Sistema/Docker
+    2. Arquivo .env (fallback)
     """
-    api_key = os.getenv("OPENAI_API_KEY")
+    # Pega a chave, remove espaços e garante que ignore qualquer comentário na mesma linha
+    raw_key = os.getenv("OPENAI_API_KEY", "")
+    api_key = raw_key.split('#')[0].strip()
+    
+    # Se a chave do sistema vier vazia (devido ao $env:OPENAI_API_KEY=""), 
+    # forçamos a leitura direta do .env novamente ou validamos se ela é válida.
+    if not api_key or len(api_key) < 10:
+        # Tenta re-carregar com override=True se a chave atual for suspeita
+        load_dotenv(dotenv_path=DOTENV_PATH, override=True)
+        api_key = os.getenv("OPENAI_API_KEY", "").split('#')[0].strip()
+    
     if not api_key:
-        raise RuntimeError("❌ ERRO: Variável OPENAI_API_KEY não encontrada no .env ou ambiente.")
+        raise RuntimeError(f"❌ ERRO: OPENAI_API_KEY não encontrada. Verifique seu .env ou Docker-compose em: {DOTENV_PATH}")
 
-    # FORÇA a key do .env a prevalecer no processo
-    os.environ["OPENAI_API_KEY"] = api_key  # <- mata qualquer valor antigo
-
-    # (opcional, mas prudente) limpa bases custom se houverem resíduos
-    for var in ("OPENAI_API_BASE", "OPENAI_ORG_ID", "OPENAI_PROJECT"):
-        # Remova esta limpeza se você usar projeto/base custom oficialmente
-        if os.getenv(var) in (None, "", " "):
-            continue
-
-    # Cria cliente com a key explícita (independe do env)
+    # Cria cliente com a key explícita
     client = OpenAI(api_key=api_key)
 
-    # Log defensivo (sem expor a key inteira)
-    print(f"[OpenAI] Key (mascarada): { _mask(api_key) } — via .env em: {DOTENV_PATH}")
+    # Log de segurança
+    print(f"[OpenAI] Usando chave iniciada em: { _mask(api_key) }")
     return client
 
-def get_model(default: str = "gpt-4o-mini") -> str:
+def get_model(default: str = "gpt-4o") -> str:
     return os.getenv("OPENAI_MODEL", default)

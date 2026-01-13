@@ -1,5 +1,40 @@
 # Arquivos com segredos
 .env
 Token Git.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
 .env
-Token Git.txt
+
+# Docker / Logs / Data
+logs/
+data/
+inbox/
+processing/
+done/
+outbox/
+error/
+evidencias/
+artifacts/
+dados/
+temp/
+output/
+*.log
+
+# Ferramentas de teste/debug locais
+quick_test_openai.py
+debug_env.py
+debug_oauth_imap.py
+test_out.txt
+test_result.txt
+test_openai_connection.py
+.perm_test_*
+
+# Arquivos de Sistema
+.DS_Store
+Thumbs.db

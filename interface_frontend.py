@@ -14,7 +14,7 @@ import streamlit as st
 import os
 import json
 from pathlib import Path
-from log_service import init_folders
+from log_service import init_folders, safe_mkdir
 from main import executar_pipeline_manual
 
 # Inicializa estrutura
@@ -53,7 +53,7 @@ if aba == "Upload de Job":
             st.error("Preencha o ID do job, o manifest e ao menos um arquivo PDF.")
         else:
             job_dir = Path(DIRS["INBOX_DIR"]) / job_id
-            job_dir.mkdir(parents=True, exist_ok=True)
+            safe_mkdir(job_dir)
 
             # Salva manifest
             manifest_path = job_dir / "manifest.json"

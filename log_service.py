@@ -20,7 +20,7 @@ try:
 except ImportError:
     import logging
     _USING_LOGURU = False
-    _logger = logging.get_Logger("app")
+    _logger = logging.getLogger("app")
     _logger.setLevel(logging.INFO)
     # Handlers básicos
     _LOG_DIR_FALL = Path("logs")
@@ -36,18 +36,55 @@ except ImportError:
     _logger.addHandler(_ch)
 
 # =========================
-# Constantes e diretórios
+# Constantes e diretórios (Respeitam Env se disponível)
 # =========================
-BASE_DIR = Path(".").resolve()
-LOGS_DIR = BASE_DIR / "logs"
+BASE_DIR = Path(os.getenv("BASE_DIR", ".")).resolve()
+LOGS_DIR = Path(os.getenv("PATH_LOGS", str(BASE_DIR / "logs")))
 ARTIFACTS_DIR = BASE_DIR / "artifacts"
 EVIDENCES_DIR = ARTIFACTS_DIR / "evidences"
+
+# =========================
+# Utils de Arquivos
+# =========================
+def safe_mkdir(path: str | Path) -> Path:
+    """
+    Cria diretório recursivamente e garante permissão total.
+    Realiza um teste de escrita para confirmar acesso em ambientes Windows/Docker.
+    """
+    p = Path(path)
+    try:
+        if not p.exists():
+            p.mkdir(parents=True, exist_ok=True)
+        
+        # Tenta aplicar permissão (funciona melhor em Linux/Docker)
+        try:
+            os.chmod(p, 0o777)
+        except:
+            pass
+
+        # Teste de escrita real (crucial para volumes Windows/OneDrive)
+        test_file = p / f".perm_test_{os.getpid()}"
+        try:
+            test_file.write_text("test")
+            test_file.unlink() # apaga o arquivo de teste
+        except (OSError, IOError) as e:
+            _logger.error(f"ERRO DE PERMISSÃO EM {p}: O sistema não consegue escrever nesta pasta. Verifique se o Windows ou OneDrive está bloqueando o acesso. Erro: {e}")
+            raise PermissionError(f"Sem acesso de escrita em: {p}")
+
+    except Exception as e:
+        if not isinstance(e, PermissionError):
+            _logger.warning(f"Aviso ao gerenciar pasta {p}: {e}")
+        else:
+            raise e
+        
+    return p
+
 
 # =========================
 # Configuração de log
 # =========================
 def _configure_logging() -> None:
-    LOGS_DIR.mkdir(parents=True, exist_ok=True)
+    safe_mkdir(LOGS_DIR)
     if _USING_LOGURU:
         log_format = (
             "<green>{time:YYYY-MM-DD HH:mm:ss.SSS}</green> | "
@@ -95,26 +132,30 @@ def get_logger(name: str):
     else:
         # logging padrão
         import logging
-        return logging.get_Logger(name)
+        return logging.getLogger(name)
 
 
 def init_folders() -> dict:
     """
     Garante que todas as pastas da aplicação existam e retorna seus caminhos.
+    Prioriza variáveis de ambiente (Docker/Env).
     """
+    # Carrega variáveis ou usa fallback compatível com estrutura antiga
     base_dirs = {
-        "BASE_DIR": Path(".").resolve(),
-        "INBOX_DIR": Path("inbox"),
-        "PROCESSING_DIR": Path("processing"),
-        "OUTBOX_DIR": Path("outbox"),
-        "DONE_DIR": Path("done"),
-        "ERROR_DIR": Path("error"),
-        "EVID_OCR_DIR": Path("evidencias") / "ocr",
-        "LOG_DIR": Path("logs"),
+        "BASE_DIR": Path(os.getenv("BASE_DIR", ".")).resolve(),
+        "INBOX_DIR": Path(os.getenv("PATH_INBOX", "inbox")),
+        "PROCESSING_DIR": Path(os.getenv("PATH_PROCESSING", "processing")),
+        "OUTBOX_DIR": Path(os.getenv("PATH_OUTBOX", "outbox")),
+        "DONE_DIR": Path(os.getenv("PATH_DONE", "done")),
+        "ERROR_DIR": Path(os.getenv("PATH_ERROR", "error")),
+        "EVID_OCR_DIR": Path(os.getenv("PATH_EVIDENCIAS", "evidencias")) / "ocr",
+        "LOG_DIR": Path(os.getenv("PATH_LOGS", "logs")),
     }
 
+    # Cria apenas subdiretórios, ignora a raiz para evitar falsos-positivos de trava de sincronização
     for key, path in base_dirs.items():
-        path.mkdir(parents=True, exist_ok=True)
+        if key != "BASE_DIR":
+            safe_mkdir(path)
 
     _logger.info("Estrutura de diretórios inicializada com sucesso.")
     return {k: str(v) for k, v in base_dirs.items()}

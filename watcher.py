@@ -9,7 +9,7 @@ import shutil
 from pathlib import Path
 from typing import List, Dict, Any, Iterable
 
-from log_service import get_logger, init_folders, registrar_evento
+from log_service import get_logger, init_folders, registrar_evento, safe_mkdir
 from manifest_loader import load_manifest
 from ocr_router import executar_ocr
 from doc_verifier_agent import validar_documentos_openai
@@ -53,7 +53,7 @@ def _move_job_to_processing(inbox_job_dir: Path) -> Path:
     dest = Path(DIRS["PROCESSING_DIR"]) / job_id
     if dest.exists():
         shutil.rmtree(dest)
-    dest.parent.mkdir(parents=True, exist_ok=True)
+    safe_mkdir(dest.parent)
     # move a pasta do job inteira
     shutil.move(str(inbox_job_dir), str(dest))
     return dest
@@ -83,7 +83,7 @@ def _stage_manifest_for_serpro(job_id: str, manifest: Dict[str, Any]) -> Path:
     /outbox/<job_id>/serpro/manifest_for_serpro.json
     """
     serpro_dir = Path(DIRS["OUTBOX_DIR"]) / job_id / "serpro"
-    serpro_dir.mkdir(parents=True, exist_ok=True)
+    safe_mkdir(serpro_dir)
     queued = serpro_dir / "manifest_for_serpro.json"
 
     with queued.open("w", encoding="utf-8") as f:
@@ -98,7 +98,7 @@ def _stage_manifest_for_serpro(job_id: str, manifest: Dict[str, Any]) -> Path:
 def process_job(inbox_job_dir: Path):
     """Executa o pipeline completo para um único job."""
     job_id = inbox_job_dir.name
-    registrar_evento(job_id, "WATCHER", f"Novo job detectado em inbox: {inbox_job_dir.as_posix()}")
+    registrar_evento("WATCHER", f"Novo job detectado em inbox: {inbox_job_dir.as_posix()}", job_id=job_id)
 
     # Aguarda estabilidade básica de upload (.part sumir)
     if _is_upload_in_progress(inbox_job_dir):
@@ -110,7 +110,7 @@ def process_job(inbox_job_dir: Path):
 
     # Move para /processing/<job_id>/
     processing_dir = _move_job_to_processing(inbox_job_dir)
-    registrar_evento(job_id, "WATCHER", f"Job movido para processing: {processing_dir.as_posix()}")
+    registrar_evento("WATCHER", f"Job movido para processing: {processing_dir.as_posix()}", job_id=job_id)
 
     try:
         # 1) Carrega e valida manifest
@@ -156,7 +156,7 @@ def process_job(inbox_job_dir: Path):
 
         # 7) Done
         _move_processing_to_done(job_id)
-        registrar_evento(job_id, "WATCHER", "Pipeline concluído com sucesso", nivel="info")
+        registrar_evento("WATCHER", "Pipeline concluído com sucesso", "INFO", job_id=job_id)
 
     except Exception as e:
         LOGGER.exception(f"[{job_id}] Erro durante o processamento do job: {e}")
