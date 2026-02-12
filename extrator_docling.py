@@ -126,6 +126,12 @@ def extrair_com_tesseract(path_pdf: str) -> str:
     """Converte PDF para imagem e aplica OCR com Tesseract."""
     texto_final = ""
     try:
+        # Se for imagem, processa direto
+        if path_pdf.lower().endswith(('.png', '.jpg', '.jpeg', '.tiff', '.bmp')):
+            image = Image.open(path_pdf)
+            return pytesseract.image_to_string(image, lang="por+eng", config="--psm 6")
+
+        # Se for PDF, converte para imagens
         images = convert_from_path(path_pdf, dpi=300)
         for i, img in enumerate(images):
             texto = pytesseract.image_to_string(img, lang="por+eng", config="--psm 6")

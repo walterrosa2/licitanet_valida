@@ -1,0 +1,128 @@
+--- Processando C:\Users\walte\OneDrive\Workspace\IA\LICITANET\Projeto_Valida\Licitanet_OCR_OpenAI_V2\Ocr_teste_cnh\cnh_mateus.pdf ---
+
+=== CONTEÚDO MARKDOWN ===
+### Página 1
+
+REPÚBLICA FEDERATIVA DO BRASIL
+
+MINISTÉRIO DOS TRANSPORTES
+SECRETARIA NACIONAL DE TRÂNSITO - SENATRAN
+
+REPÚBLICA FEDERATIVA DO BRASIL QR-CODE
+MINISTÉRIO DOS TRANSPORTES
+
+SECRETARIA NACIONAL DE TRÂNSITO
+CARTEIRA NACIONAL DE HABILITAÇÃO / DRIVER LICENSE / PERMISO DE CONDUCCIÓN
+
+2 e 1 NOME E SOBRENOME 1º HABILITAÇÃO
+MATHEUS OTAVIO STRAPAZZON MULINARI 19/11/2014
+
+3 DATA, LOCAL E UF DE NASCIMENTO
+10/09/1996, GUAPORE, RS
+
+4a DATA EMISSÃO 4b VALIDADE ACC
+10/10/2023 11/07/2033 == |D
+7 ASSINATURA DO PORTADOR
+
+4€ DOC IDENTIDADE / ÓRG EMISSOR / UF
+6109610102 SJS/DI RS
+ad crr 5 Nº REGISTRO 9 CAT HAB
+029.974.720-40 06235985980 AD
+NACIONALIDADE
+BRASILEIRO
+FILIAÇÃO
+GILBERTO MULINARI
+
+MIRTA STRAPAZZON MULINARI
+
+E
+E
+=
+E
+E)
+E
+z
+H
+E
+
+S
+E
+=
+=
+=
+=
+o
+e
+E
+o
+E
+ú
+=
+E
+el
+
+E
+=
+
+oo
+to
+[o]
+(14)
+a
+m
+st
+(9,0)
+to
+N
+
+12 OBSERVAÇÕES
+
+Ea Documento assinado com certificado digital em conformidade
+com a Medida Provisória nº 2200-2/2001. Sua validade poderá
+ser confirmada por meio do programa Assinador Serpro.
+
+Ra As orientações para instalar o Assinador Serpro e realizar a
+DEPARTAMENTO ESTADUAL DE TRÂNSITO validação do documento digital estão disponíveis em:
+
+[ Loca TE sasemenoo https:/Iwum.serpro.gov.br/assinador-digital.
+PORTO ALEGRE, RS R$273799991
+
+RIO GRANDE DO SUL SERPRO /SENATRAN
+
+2684393068
+
+2 e 1. Nome e Sobrenome / Name and Surname / Nombre y Apelidos - Primeira Habilitação / First Driver License / Primera Licencia de Conducir - 3. Data é
+Local de Nascimento / Date and Place of Birth DD/MM/YYYY / Fecha y Lugar de Nacimiento - 4a. Data de Emissão / Issuing Date DD/MM/YYYY | Fecha de Emisión - 4b.
+Data de Validade / Expiration Date DD/MMAWYY / Valido Hasta - ACC - 4c, Documento Identidade - Órgão emissor / Identity Document  Issuing Authority /
+Documento de Identificación - Autoridad Expedidora - 4d. CPF - 5. Número de registro da CNH / Driver License Number / Número de Permiso de Conducir- 9.
+Categoria de Veículos da Carteira de Habilitação / Driver license Class / Categoria de Permisos de Conducir - Nacionalidade / Nationality / Nacionalidad -
+Filiação / Fliation /Filiación - 12. Observações / Observations / Observaciones - Local / Place / Lugar
+
+I<BRA062359859<801<<<<<<<<<<<<
+9609107M3307113BRA<<<<<<<<<<<8
+MATHEUS<<O<STRAPAZZON<MULINARI
+
+
+**MRZ Detectado:**
+`FOUPTUCMIS0F1TSBRA<S<<<<<<<<5<656
+MATHEUS<<0<STRAPAZZON<MULINARI
+I<BRA062359859<801<<<<<<<<<<<<
+9609107M3307113BRA<<<<<<<<<<<8
+MATHEUS<<O<STRAPAZZON<MULINARI`
+
+
+=== DADOS ESTRUTURADOS (JSON) ===
+{
+  "cpf": "029.974.720-40",
+  "datas_encontradas": [
+    "19/11/2014",
+    "10/09/1996",
+    "10/10/2023",
+    "11/07/2033"
+  ],
+  "categoria": "de",
+  "mrz_full": []
+}
+
+=== DIAGNÓSTICO ===
+{'fallback_ocr': False, 'observacoes': ['Processado por cnh_ocr'], 'qualidade_global': 1.0}

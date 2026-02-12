@@ -12,7 +12,7 @@ from datetime import datetime
 from pdf2image import convert_from_path
 from PIL import Image
 from typing import Dict, Any, List, Optional
-from log_service import get_logger, init_folders
+from log_service import get_logger, init_folders, safe_mkdir
 import ledger
 
 # Tenta importar pyzbar para QR Code
@@ -65,7 +65,7 @@ def process_cnh(
         return {"error": str(e), "status": "ERRO"}
 
     evid_dir = Path(DIRS["EVID_OCR_DIR"]) / job_id
-    evid_dir.mkdir(parents=True, exist_ok=True)
+    safe_mkdir(evid_dir)
     
     extracted_text_pages = []
     extracted_data_pages = []
@@ -169,30 +169,41 @@ def preprocess_image(img_cv: np.ndarray) -> np.ndarray:
 
 def _extract_page_content(img_cv: np.ndarray) -> Dict[str, Any]:
     """
-    Aplica filtros e OCR Tesseract na página.
-    Tenta extrair texto geral, MRZ e campos específicos.
+    Aplica OCR Tesseract usando configurações validadas pelo user script:
+    - PSM 3 (auto)
+    - Sem pré-processamento agressivo para o texto principal
     """
-    # Configurações do User
-    TESS_CONFIG_GERAL = "--oem 1 --psm 4 -c preserve_interword_spaces=1"
-    TESS_CONFIG_MRZ = "--oem 1 --psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ<0123456789"
+    # Converter CV2 (BGR) para PIL (RGB) para Tesseract
+    img_pil = Image.fromarray(cv2.cvtColor(img_cv, cv2.COLOR_BGR2RGB))
     
-    # 1. Pré-processamento e OCR Geral
-    processed_img = preprocess_image(img_cv)
-    text_pt = pytesseract.image_to_string(processed_img, lang="por+eng", config=TESS_CONFIG_GERAL)
-    
-    # 2. OCR MRZ (Zona inferior ~30%)
+    # 1. OCR Geral (Português) - Configuração Validada: --psm 3
+    config_pt = "--psm 3"
+    try:
+        text_pt = pytesseract.image_to_string(img_pil, lang="por", config=config_pt)
+    except Exception as e:
+        LOGGER.warning(f"Erro no OCR PSM 3: {e}")
+        text_pt = ""
+
+    # 2. OCR MRZ (Zona inferior) - Mantemos lógica dedicada para reforço
     h, w = img_cv.shape[:2]
-    roi_mrz_color = img_cv[int(h * 0.70): h, 0:w]
+    roi_mrz_gray = cv2.cvtColor(img_cv[int(h * 0.65): h, 0:w], cv2.COLOR_BGR2GRAY)
+    _, bin_mrz = cv2.threshold(roi_mrz_gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
     
-    # Binarizar para MRZ (lógica do user: gray -> threshold otsu)
-    gray_mrz = cv2.cvtColor(roi_mrz_color, cv2.COLOR_BGR2GRAY)
-    _, bin_mrz = cv2.threshold(gray_mrz, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-    
-    text_mrz = pytesseract.image_to_string(bin_mrz, lang="eng", config=TESS_CONFIG_MRZ)
+    config_mrz = "--psm 6 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ<0123456789"
+    try:
+        text_mrz = pytesseract.image_to_string(bin_mrz, lang="eng", config=config_mrz)
+    except Exception:
+        text_mrz = ""
     
     # 3. Parseamento
     data = _parse_text_fields(text_pt)
     mrz_lines = _filter_mrz_lines(text_mrz)
+    
+    # Adicionar linhas MRZ encontradas no texto geral se não estiverem duplicadas
+    mrz_gen = _filter_mrz_lines(text_pt)
+    for l in mrz_gen:
+        if l not in mrz_lines:
+            mrz_lines.append(l)
     
     return {
         "text": text_pt,
@@ -277,3 +288,5 @@ def _compute_file_hash(path: str) -> str:
         for chunk in iter(lambda: f.read(4096), b""):
             hash_sha256.update(chunk)
     return hash_sha256.hexdigest()
+
+

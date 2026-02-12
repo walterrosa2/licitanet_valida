@@ -22,7 +22,9 @@ BMF TURISMO LTDA
 
 requer a V.S' o deferimento do seguinte ato:
 
-N' DE VIAS
+N' DE
+
+VIAS
 
 CÓDIGO
 
@@ -186,6 +188,8 @@ N' DO PROTOCOLO (Uso da Junta Comercial)
 
 Junta Comercial do Estado de Minas Gerais
 
+Certifico o registro sob o n' 10625434 em 12/07/2023 da Empresa BMF TURISMO LTDA, Nire 31211695055 e protocolo 234099747 - 10/07/2023. Autenticaçªo: 738A73F0CAC9F7475F2E8D6FDCE25A3BB7AFDD57. Marinely de Paula Bomfim - SecretÆria-Geral. Para validar este documento, acesse http://www.jucemg.mg.gov.br e informe n' do protocolo 23/409.974-7 e o código de segurança CQyR Esta cópia foi autenticada digitalmente e assinada em 13/08/2025 por Marinely de Paula Bomfim - SecretÆria-Geral.
+
 <!-- image -->
 
 ## JUNTA COMERCIAL DO ESTADO DE MINAS GERAIS
@@ -210,7 +214,9 @@ PÆgina 1 de  1
 
 ## II ALTERAÇÃO CONTRATUAL
 
-## BMF TURISMO LTDA CNPJ: 22.157.088/0001-92
+## BMF TURISMO LTDA
+
+CNPJ: 22.157.088/0001-92
 
 FERNANDO  DE  LIMA  VILA  NOVA ,  brasileiro,  casado  sob-regime  de  comunhão  parcial  de  bens, empresário, nascido em 21/08/1989, em Sete Lagoas, MG, portador da Carteira de Identidade nº MG11903647, expedida pela SSP/MG e do CPF nº 105.214.676-75, residente e domiciliado em Sete Lagoas, MG, na Rua Guimaraes Rosa, nº 1000, bairro Bom Jardim, CEP 35.701-035,
 
@@ -356,19 +362,21 @@ Junta Comercial do Estado de Minas Gerais
 
 ## Documento Principal
 
-| Identificaçªo do Processo        | Identificaçªo do Processo            | Identificaçªo do Processo        |
-|----------------------------------|--------------------------------------|----------------------------------|
-| Nœmero do Protocolo              | Nœmero do Processo Módulo Integrador | Data                             |
-| 23/409.974-7                     | MGN2343726402                        | 10/07/2023                       |
-| Identificaçªo do(s) Assinante(s) | Identificaçªo do(s) Assinante(s)     | Identificaçªo do(s) Assinante(s) |
-| CPF                              | Nome                                 | Nome                             |
-| 105.214.676-75                   | FERNANDO DE LIMA VILA NOVA           | FERNANDO DE LIMA VILA NOVA       |
+| Identificaçªo do Processo   | Identificaçªo do Processo            | Identificaçªo do Processo   |
+|-----------------------------|--------------------------------------|-----------------------------|
+| Nœmero do Protocolo         | Nœmero do Processo Módulo Integrador | Data                        |
+| 23/409.974-7                | MGN2343726402                        | 10/07/2023                  |
+
+| Identificaçªo do(s) Assinante(s)   | Identificaçªo do(s) Assinante(s)   |
+|------------------------------------|------------------------------------|
+| CPF                                | Nome                               |
+| 105.214.676-75                     | FERNANDO DE LIMA VILA NOVA         |
 
 PÆgina 1 de  1
 
 <!-- image -->
 
-SEqRETARIA GERAL
+SEqRETARIA GERAt
 
 <!-- image -->
 
@@ -443,7 +451,7 @@ Belo Horizonte. quarta-feira, 12 de julho de 2023
 
 Junta Comercial do Estado de Minas Gerais
 
-Certifico o registro sob o n' 10625434 em 12/07/2023 da Empresa BMF TURISMO LTDA, Nire 31211695055 e protocolo 234099747 - 10/07/2023. Autenticaçªo: 738A73F0CAC9F7475F2E8D6FDCE25A3BB7AFDD57. Marinely de Paula Bomfim - SecretÆria-Geral. Para validar este documento, acesse http://www.jucemg.mg.gov.br e informe n' do protocolo 23/409.974-7 e o código de segurança CQyR Esta cópia foi autenticada digitalmente e assinada em 13/08/2025 por Marinely de Paula Bomfim - SecretÆria-Geral. pÆg. 9/9 OrakR
+Certifico o registro sob o n' 10625434 em 12/07/2023 da Empresa BMF TURISMO LTDA, Nire 31211695055 e protocolo 234099747 - 10/07/2023. Autenticaçªo: 738A73F0CAC9F7475F2E8D6FDCE25A3BB7AFDD57. Marinely de Paula Bomfim - SecretÆria-Geral. Para validar este documento, acesse http://www.jucemg.mg.gov.br e informe n' do protocolo 23/409.974-7 e o código de segurança CQyR Esta cópia foi autenticada digitalmente e assinada em 13/08/2025 por Marinely de Paula Bomfim - SecretÆria-Geral. pÆg. 9/9 rakR
 
 <!-- image -->
 

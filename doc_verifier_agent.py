@@ -39,8 +39,10 @@ def validar_documentos_openai(job_id: str, conteudo: str, manifest: dict, modo: 
     modo="padrao" → primeira validação
     modo="comparativo" → validação final comparando dados SERPRO + OCR + IA1
     """
-    tipo = manifest.get("tipo", "PJ")
-    prompt_path = PROMPT_PJ_PATH if tipo == "PJ" else PROMPT_PF_PATH
+    tipo = manifest.get("perfil_validacao") or manifest.get("tipo") or "PJ"
+    subperfil = manifest.get("subperfil_pf")
+    
+    prompt_path = PROMPT_PF_PATH if tipo == "PF" else PROMPT_PJ_PATH
 
     try:
         with open(prompt_path, "r", encoding="utf-8") as f:
@@ -57,6 +59,7 @@ def validar_documentos_openai(job_id: str, conteudo: str, manifest: dict, modo: 
     entrada = {
         "job_id": job_id,
         "tipo": tipo,
+        "subperfil": subperfil,
         "modo": modo,
         "conteudo": conteudo
     }

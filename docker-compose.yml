@@ -3,15 +3,13 @@ version: "3.9"
 services:
   licitanet:
     container_name: licitanet_valida
-    image: ghcr.io/walterrosa2/licitanet_valida:1.0.1
+    image: ghcr.io/walterrosa2/licitanet_valida:1.0.4
     restart: unless-stopped
 
     # Monta TODA a pasta do projeto dentro do container
     volumes:
       - .:/app
 
-    # Força execução como root para permitir download de modelos do OCR (RapidOCR/Docling)
-    user: "root"
 
     environment:
       # Diretório base de dados (estado do pipeline)

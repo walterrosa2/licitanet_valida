@@ -12,7 +12,7 @@ from typing import Tuple
 
 import httpx  # cliente HTTP usado em outras apps suas
 
-from log_service import get_logger, init_folders
+from log_service import get_logger, init_folders, safe_mkdir
 
 LOGGER = get_logger("receitaws_agent")
 DIRS = init_folders()
@@ -35,7 +35,7 @@ def _serpro_manifest_paths(job_id: str) -> Tuple[Path, Path]:
     Retorna (path_queued, path_done) dentro de outbox/<job_id>/serpro/.
     """
     serpro_dir = Path(DIRS["OUTBOX_DIR"]) / job_id / "serpro"
-    serpro_dir.mkdir(parents=True, exist_ok=True)
+    safe_mkdir(serpro_dir)
     queued = serpro_dir / "manifest_for_serpro.json"
     done = serpro_dir / "manifest_for_serpro.done.json"
     return queued, done
@@ -90,14 +90,14 @@ def _evid_paths(job_id: str) -> Tuple[Path, Path, Path]:
     outbox/<job_id>/serpro/{entrada_*.json, saida_*.json}
     """
     evid_dir = Path(DIRS["OUTBOX_DIR"]) / job_id / "serpro"
-    evid_dir.mkdir(parents=True, exist_ok=True)
+    safe_mkdir(evid_dir)
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     entrada = evid_dir / f"{job_id}_entrada_receitaws_{ts}.json"
     saida = evid_dir / f"{job_id}_saida_receitaws_{ts}.json"
     return evid_dir, entrada, saida
 
 def _save_json(path: Path, data: dict):
-    path.parent.mkdir(parents=True, exist_ok=True)
+    safe_mkdir(path.parent)
     with path.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
